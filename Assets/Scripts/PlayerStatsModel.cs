@@ -24,9 +24,9 @@ public class PlayerStatsModel {
 
     public void Buy(Item i)
     {
-        foreach(string s in i.resources)
+        foreach(string s in i.resourceCosts.Keys)
         {
-            ChangeStat(s, -i.resources[s]);
+            ChangeStat(s, -i.resourceCosts[s]);
         }
     }
 }
