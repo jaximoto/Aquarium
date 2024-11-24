@@ -1,13 +1,10 @@
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
-public class ShopModel : MonoBehaviour
+public class ShopModel
 {
     Dictionary<string, int> shopInventory = new Dictionary<string, int>();
     IList<string> shopAvailable = new List<string>();
-    public void OnBuy(string itemName)
-    {
-
-    }
 
 }

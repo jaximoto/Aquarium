@@ -1,6 +1,5 @@
 using UnityEngine;
 using static Item;
-
 public class Fish : Item
 {
     public float health, hunger;
