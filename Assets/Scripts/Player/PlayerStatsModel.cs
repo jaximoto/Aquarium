@@ -24,11 +24,11 @@ public class PlayerStatsModel {
 
     public void Buy(Item i)
     {
-        /*
-        foreach(string s in i.resourceCosts)
+       
+        foreach(string s in i.resourceCosts.Keys)
         {
-            ChangeStat(s, -i.resourceCosts[s]);
+            ChangeStat(s, i.resourceCosts[s]);
         }
-        */
+        
     }
 }
