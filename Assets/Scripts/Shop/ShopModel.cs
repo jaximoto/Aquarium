@@ -15,7 +15,8 @@ public class ShopModel
         {
             {"FishPrime", makeDict(new int[]{20, 5, 3}) },
             {"Cove", makeDict(new int[]{20, 0, 0}) },
-            {"Kelp", makeDict(new int[]{10, 0, 0}) }
+            {"Kelp", makeDict(new int[]{10, 0, 0}) },
+            {"FishFood", makeDict(new int[]{10, 0, 0}) }
 
         };
 
