@@ -9,13 +9,14 @@ public class Fish : Item
     public float outTemp, outPH, outC02, outAlgaeContent, outWaste;
     //go over fish stats and preferences.
     //make an algorithm
+    public float fishStatus = 0.65f;
     enum Status
     {
-        dead,
-        dying,
-        unhealthy,
-        healthy,
-        plusUltra
+        dead, //fish is dead, fish health points == 0
+        dying, //fish is losing health, fishStatus == [0,0.25]
+        unhealthy, //fish is holdin steady & give 1/2 gold, fishStatus == [0.25,0.5]
+        healthy, //fish is healin & give 100% gold, fishStatus == [0.5,0.75]
+        plusUltra //fish is healin & givin bonus resources == [0.75,1]
 
     }
 
@@ -24,20 +25,4 @@ public class Fish : Item
         Debug.Assert(false);
     }
 
-    public override void UpdateTank(ref TankModel tankModel)
-    {
-        return; //TODO algorithm
-    }
-
-    public override void UpdateSelf()
-    {
-        return; //TODO algorithm
-    }
-
-    /* Jack MiHoff
-    public void Init(float pTemp, float pPH, float pC02, float pAlgaeContent, float pWaste, float outTemp, float outPH, float outC02, float outAlgaeContent, float outWaste)
-    {
-        
-    }
-    */
 }

@@ -29,7 +29,6 @@ public class GameController : MonoBehaviour
     {
         
     }
-
     
     // TODOOOO Both funcs have to have event to call change tank event, make current tank turn tankstats off and all fish etc, and then turns on the tank we are on
     public void MoveRight()
@@ -70,7 +69,10 @@ public class GameController : MonoBehaviour
         ActiveTank.SetActive(true);
     }
 
-    //todooooo next???? Jaxon?
-    //UpdateCurrTankUI(16757);
+   
+    public void UpdateCurrTankUI()
+    {
+
+    }
 
 }

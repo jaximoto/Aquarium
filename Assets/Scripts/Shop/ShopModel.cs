@@ -13,8 +13,10 @@ public class ShopModel
     {
         resourceMap = new()
         {
-            {"FishPrime", makeDict(new int[]{20, 5, 3}) }
-            
+            {"FishPrime", makeDict(new int[]{20, 5, 3}) },
+            {"Cove", makeDict(new int[]{20, 0, 0}) },
+            {"Kelp", makeDict(new int[]{10, 0, 0}) }
+
         };
 
     }
