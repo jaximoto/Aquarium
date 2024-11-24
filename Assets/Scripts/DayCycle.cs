@@ -11,7 +11,6 @@ public class DayCycle : MonoBehaviour
 
     public void nextDay()
     {
-
         OnNextDay?.Invoke();
         NextDay.interactable = false;
         Debug.Log("next DaY!");

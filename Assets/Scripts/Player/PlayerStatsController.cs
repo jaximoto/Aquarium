@@ -2,10 +2,13 @@ using UnityEngine;
 
 public class PlayerStatsController : MonoBehaviour
 {
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
         PlayerStatsModel model = new PlayerStatsModel();
+        //ShopController.OnBuyPlayer += model.Buy();
+        ShopController.OnBuyPlayer += model.Buy;
         // TODO subscribe the model buy method to the shop OnBuy event
     }
 

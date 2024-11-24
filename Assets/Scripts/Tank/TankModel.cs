@@ -12,7 +12,7 @@ public class TankModel
     public Dictionary<string, float> statsDict;
 
     public List<Fish> myFish;
-
+    
     public List<Item> myItems;
 
     // All stats are floats because fuck you
@@ -27,6 +27,9 @@ public class TankModel
             {"PH", 10},
             {"Algae", 10}
         };
+
+        myItems = new List<Item>();
+        myFish = new List<Fish>();
     }
 
 
@@ -43,6 +46,11 @@ public class TankModel
         statsDict[name] = val;
     }
     
+    public void IncrementStat(string name, float val)
+    {
+        Debug.Assert(statsDict.ContainsKey(name));
+        statsDict[name] += val;
+    }
 
 }
 }

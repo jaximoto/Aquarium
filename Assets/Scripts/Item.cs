@@ -1,8 +1,14 @@
 using System.Collections.Generic;
 using UnityEngine;
+using Tank;
 
-public abstract class Item
+public class Item : MonoBehaviour
 {
     public Dictionary<string, int> resourceCosts = new Dictionary<string, int>();
-    public float tempModifier, PHModifier, CO2Modifier, algaeModifier, wasteModifier;
+
+    public virtual void UpdateTank(ref TankModel tankModel)
+    { Debug.Assert(false); }
+    public virtual void UpdateSelf()
+    { Debug.Assert(false); }
+
 }
