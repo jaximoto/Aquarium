@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &50211906 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 287458556618497462, guid: cf0b00af8494944969579c9745cd8a38, type: 3}
+  m_PrefabInstance: {fileID: 1689711419}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &257095341
 GameObject:
   m_ObjectHideFlags: 0
@@ -419,6 +424,51 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8190442200064255676, guid: aa0d0931d8e49584cae41fd13efb82bd, type: 3}
   m_PrefabInstance: {fileID: 399093384}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &434584879
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 434584880}
+  - component: {fileID: 434584881}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &434584880
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434584879}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.682411, y: -0.7233175, z: 0.042099077}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &434584881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434584879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89ea55db69ca1f644a6eab76433e41b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ActiveTank: {fileID: 50211906}
 --- !u!1 &488016129
 GameObject:
   m_ObjectHideFlags: 0
@@ -945,6 +995,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 357763708}
+  - {fileID: 434584880}
   - {fileID: 774534732}
   - {fileID: 399093384}
   - {fileID: 257095344}

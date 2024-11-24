@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 
@@ -28,7 +29,10 @@ public class ShopController : MonoBehaviour
         
         if (itemName == "FishPrime")
         {
-            return Instantiate(prefab).gameObject.GetComponent<FishPrime>();
+            GameObject game = Instantiate(prefab).gameObject;
+            FishPrime i = game.gameObject.GetComponent<FishPrime>();
+            game.transform.SetParent(GameController.Instance.ActiveTank.transform, true);
+            return i;
         }
         
         return null;
