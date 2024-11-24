@@ -8,7 +8,7 @@ using UnityEngine.XR;
 public class PlayerStatsModel {
 
 
-    Dictionary<string, int> model = new();
+    public Dictionary<string, int> model = new();
 
     public PlayerStatsModel()
     {
@@ -33,6 +33,7 @@ public class PlayerStatsModel {
             ChangeStat(s, -resources[s]);
         }   
     }
+
 
 
 }

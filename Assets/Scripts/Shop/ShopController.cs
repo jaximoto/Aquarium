@@ -4,17 +4,25 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 
+using static PlayerStatsController;
+
 public class ShopController : MonoBehaviour
 {
     ShopModel model;
     public static event Action<Dictionary<string, int>> OnBuyPlayer;
     public static event Action<Item> OnBuyTank;
+
+    public PlayerStatsController playerController;
     
     public void Buy(string itemName)
     {
-        OnBuyPlayer?.Invoke(model.resourceMap[itemName]);
-        Item i = ItemFactory(itemName);
-        OnBuyTank?.Invoke(i);
+        if (playerController.CanBuy(model.resourceMap[itemName]))
+        {
+            OnBuyPlayer?.Invoke(model.resourceMap[itemName]);
+            Item i = ItemFactory(itemName);
+            OnBuyTank?.Invoke(i);
+        }
+        //else call shop view to say "not enough money"
     }
     
 
