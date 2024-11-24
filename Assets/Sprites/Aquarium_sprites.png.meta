@@ -1,0 +1,2240 @@
+fileFormatVersion: 2
+guid: 884f2502ebc7a2048ab6659b55adced7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4093942466454035847
+    second: Aquarium_sprites_0
+  - first:
+      213: 1329331668076133191
+    second: Aquarium_sprites_1
+  - first:
+      213: -6066801822456931861
+    second: Aquarium_sprites_2
+  - first:
+      213: -5037069624880418255
+    second: Aquarium_sprites_3
+  - first:
+      213: -7985872941878157244
+    second: Aquarium_sprites_4
+  - first:
+      213: 277134404009782442
+    second: Aquarium_sprites_5
+  - first:
+      213: -8788805524748515397
+    second: Aquarium_sprites_6
+  - first:
+      213: 6593616816894893740
+    second: Aquarium_sprites_7
+  - first:
+      213: -5517447313444971925
+    second: Aquarium_sprites_8
+  - first:
+      213: -6019527240307593711
+    second: Aquarium_sprites_9
+  - first:
+      213: 991580532865066975
+    second: Aquarium_sprites_10
+  - first:
+      213: 1555995288745129239
+    second: Aquarium_sprites_11
+  - first:
+      213: 182367541363275895
+    second: Aquarium_sprites_12
+  - first:
+      213: 8103119834659564255
+    second: Aquarium_sprites_13
+  - first:
+      213: -3957233382601600068
+    second: Aquarium_sprites_14
+  - first:
+      213: 7325419868477845498
+    second: Aquarium_sprites_15
+  - first:
+      213: -4657359482537934592
+    second: Aquarium_sprites_16
+  - first:
+      213: -4644907785516727342
+    second: Aquarium_sprites_17
+  - first:
+      213: 7306512904744353939
+    second: Aquarium_sprites_18
+  - first:
+      213: -494540753171972778
+    second: Aquarium_sprites_19
+  - first:
+      213: -4442428197726858764
+    second: Aquarium_sprites_20
+  - first:
+      213: -3262900659327918862
+    second: Aquarium_sprites_21
+  - first:
+      213: -4432490754629397296
+    second: Aquarium_sprites_22
+  - first:
+      213: -8133830699872944713
+    second: Aquarium_sprites_23
+  - first:
+      213: 5847224738403465043
+    second: Aquarium_sprites_24
+  - first:
+      213: -7866632643983113667
+    second: Aquarium_sprites_25
+  - first:
+      213: -2107893710358147003
+    second: Aquarium_sprites_26
+  - first:
+      213: 8124080532557761287
+    second: Aquarium_sprites_27
+  - first:
+      213: -4656063358370264680
+    second: Aquarium_sprites_28
+  - first:
+      213: 4541115762354782397
+    second: Aquarium_sprites_29
+  - first:
+      213: 4687139942268933188
+    second: Aquarium_sprites_30
+  - first:
+      213: -172481493112657681
+    second: Aquarium_sprites_31
+  - first:
+      213: 6387528897462922233
+    second: Aquarium_sprites_32
+  - first:
+      213: 5652250203625919939
+    second: Aquarium_sprites_33
+  - first:
+      213: -8396863726709298563
+    second: Aquarium_sprites_34
+  - first:
+      213: 6724011611027093590
+    second: Aquarium_sprites_35
+  - first:
+      213: -7903484284231721060
+    second: Aquarium_sprites_36
+  - first:
+      213: -5413966795189485279
+    second: Aquarium_sprites_37
+  - first:
+      213: -6598809607273887332
+    second: Aquarium_sprites_38
+  - first:
+      213: -2983417655276662543
+    second: Aquarium_sprites_39
+  - first:
+      213: 4742525736067828901
+    second: Aquarium_sprites_40
+  - first:
+      213: -7403270908202058183
+    second: Aquarium_sprites_41
+  - first:
+      213: 6653807316043650202
+    second: Aquarium_sprites_42
+  - first:
+      213: 9075126749626224559
+    second: Aquarium_sprites_43
+  - first:
+      213: 4278002323493238038
+    second: Aquarium_sprites_44
+  - first:
+      213: -766396953537093273
+    second: Aquarium_sprites_45
+  - first:
+      213: -2322770536772637421
+    second: Aquarium_sprites_46
+  - first:
+      213: -4132047035253159594
+    second: Aquarium_sprites_47
+  - first:
+      213: 2625398591757939147
+    second: Aquarium_sprites_48
+  - first:
+      213: 5471074360771331313
+    second: Aquarium_sprites_49
+  - first:
+      213: -2616228027825960196
+    second: Aquarium_sprites_50
+  - first:
+      213: -8951280430366744449
+    second: Aquarium_sprites_51
+  - first:
+      213: -6955963582952762716
+    second: Aquarium_sprites_52
+  - first:
+      213: -7355911702446486255
+    second: Aquarium_sprites_53
+  - first:
+      213: -1436469438476123665
+    second: Aquarium_sprites_54
+  - first:
+      213: -4823215084092385071
+    second: Aquarium_sprites_55
+  - first:
+      213: -9019823149258211423
+    second: Aquarium_sprites_56
+  - first:
+      213: 6837332062614933005
+    second: Aquarium_sprites_57
+  - first:
+      213: 6879309776525464302
+    second: Aquarium_sprites_58
+  - first:
+      213: -6256344350167733917
+    second: Aquarium_sprites_59
+  - first:
+      213: 5559461871853933120
+    second: Aquarium_sprites_60
+  - first:
+      213: -2392041668668684878
+    second: Aquarium_sprites_61
+  - first:
+      213: 7602795022721137527
+    second: Aquarium_sprites_62
+  - first:
+      213: -4580882859602955560
+    second: Aquarium_sprites_63
+  - first:
+      213: -1457398167232641663
+    second: Aquarium_sprites_64
+  - first:
+      213: 8097532038620626372
+    second: Aquarium_sprites_65
+  - first:
+      213: -1787880659744604887
+    second: Aquarium_sprites_66
+  - first:
+      213: 3753639081106384545
+    second: Aquarium_sprites_67
+  - first:
+      213: 3684306148777240960
+    second: Aquarium_sprites_68
+  - first:
+      213: -4521285516946702874
+    second: Aquarium_sprites_69
+  - first:
+      213: 7452667095692968234
+    second: Aquarium_sprites_70
+  - first:
+      213: 2878003884605449001
+    second: Aquarium_sprites_71
+  - first:
+      213: 6099623448897743870
+    second: Aquarium_sprites_72
+  - first:
+      213: -8950306314761507720
+    second: Aquarium_sprites_73
+  - first:
+      213: -6749924613452306586
+    second: Aquarium_sprites_74
+  - first:
+      213: -3670505337996967984
+    second: Aquarium_sprites_75
+  - first:
+      213: -3220828264664484498
+    second: Aquarium_sprites_76
+  - first:
+      213: -8387409003373861378
+    second: Aquarium_sprites_77
+  - first:
+      213: 245142031321030294
+    second: Aquarium_sprites_78
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Aquarium_sprites_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5941
+        width: 320
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972ee1474056f27c0800000000000000
+      internalID: -4093942466454035847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5587
+        width: 320
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74bfa58eb1cb27210800000000000000
+      internalID: 1329331668076133191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_2
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 5419
+        width: 184
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be913c1c2e36ecba0800000000000000
+      internalID: -6066801822456931861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_3
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 5252
+        width: 53
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 132b71c1ddbb81ab0800000000000000
+      internalID: -5037069624880418255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 5256
+        width: 35
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 440e2fdceda7c2190800000000000000
+      internalID: -7985872941878157244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_5
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 5243
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aacea0aa54498d300800000000000000
+      internalID: 277134404009782442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_6
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 5233
+        width: 34
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7cf59b0f3e70680800000000000000
+      internalID: -8788805524748515397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_7
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 5239
+        width: 37
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caedf0c7f8b318b50800000000000000
+      internalID: 6593616816894893740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_8
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 5240
+        width: 41
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6add2fa6e61e63b0800000000000000
+      internalID: -5517447313444971925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 5240
+        width: 64
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11eada52ed7567ca0800000000000000
+      internalID: -6019527240307593711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_10
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 5237
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd76d93bd3dc2cd00800000000000000
+      internalID: 991580532865066975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 5244
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 715b5d99871089510800000000000000
+      internalID: 1555995288745129239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_12
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 5224
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 778f4890056e78200800000000000000
+      internalID: 182367541363275895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5039
+        width: 320
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda2e45be80147070800000000000000
+      internalID: 8103119834659564255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4859
+        width: 320
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb3d6b074351519c0800000000000000
+      internalID: -3957233382601600068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_15
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 4702
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: affe5330f8e19a560800000000000000
+      internalID: 7325419868477845498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_16
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 4518
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0018704f93cbd5fb0800000000000000
+      internalID: -4657359482537934592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_17
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 4335
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d344d59af8f98fb0800000000000000
+      internalID: -4644907785516727342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_18
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 4157
+        width: 44
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 390481a76c2f56560800000000000000
+      internalID: 7306512904744353939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_19
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3995
+        width: 106
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65dfa302ec90329f0800000000000000
+      internalID: -494540753171972778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3831
+        width: 24
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1df4657135952c0800000000000000
+      internalID: -4442428197726858764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_21
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 3817
+        width: 18
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc1f5f4329d7b2d0800000000000000
+      internalID: -3262900659327918862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_22
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 3825
+        width: 20
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d49c1c9421ac72c0800000000000000
+      internalID: -4432490754629397296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_23
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 3816
+        width: 11
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bdf7e6c214de1f80800000000000000
+      internalID: -8133830699872944713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_24
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 3812
+        width: 19
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3573a6e6be3852150800000000000000
+      internalID: 5847224738403465043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_25
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 3789
+        width: 31
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3205ec1a4b14d290800000000000000
+      internalID: -7866632643983113667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_26
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 3738
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54092d9a6d14fb2e0800000000000000
+      internalID: -2107893710358147003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_27
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 3729
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70b85cd73388eb070800000000000000
+      internalID: 8124080532557761287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_28
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 3719
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899c0a06b07526fb0800000000000000
+      internalID: -4656063358370264680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_29
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 3705
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db0851bd9b8450f30800000000000000
+      internalID: 4541115762354782397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_30
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 3691
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4441c77a1f01c0140800000000000000
+      internalID: 4687139942268933188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_31
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 3676
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe8e0b0fef83b9df0800000000000000
+      internalID: -172481493112657681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_32
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 3651
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fbe1dd80bf05a850800000000000000
+      internalID: 6387528897462922233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_33
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 3594
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c590c00d93d07e40800000000000000
+      internalID: 5652250203625919939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_34
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 3590
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a2126dde8587b80800000000000000
+      internalID: -8396863726709298563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_35
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 3583
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6583fd45fec705d50800000000000000
+      internalID: 6724011611027093590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_36
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 3586
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f5c7efaee215290800000000000000
+      internalID: -7903484284231721060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_37
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 3545
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12188fa52e9bdd4b0800000000000000
+      internalID: -5413966795189485279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_38
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 3542
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c99410acf915c64a0800000000000000
+      internalID: -6598809607273887332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_39
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 3522
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f01b980375c896d0800000000000000
+      internalID: -2983417655276662543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_40
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 3514
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac887ca706d0d140800000000000000
+      internalID: 4742525736067828901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_41
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 3492
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93ef1ac455c424990800000000000000
+      internalID: -7403270908202058183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_42
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 3505
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a945da42082175c50800000000000000
+      internalID: 6653807316043650202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_43
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 3478
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fafcd1b52b351fd70800000000000000
+      internalID: 9075126749626224559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_44
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 3468
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6153c1882748e5b30800000000000000
+      internalID: 4278002323493238038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_45
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 3471
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761ea7308063d55f0800000000000000
+      internalID: -766396953537093273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_46
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 3269
+        width: 23
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d6cecd08cd3cfd0800000000000000
+      internalID: -2322770536772637421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_47
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 3059
+        width: 178
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 659878c2d1508a6c0800000000000000
+      internalID: -4132047035253159594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_48
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 3032
+        width: 107
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc1fa87fb1a4f6420800000000000000
+      internalID: 2625398591757939147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_49
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 2709
+        width: 133
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f4c585e4292deb40800000000000000
+      internalID: 5471074360771331313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_50
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 2640
+        width: 60
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfa4306587a41bbd0800000000000000
+      internalID: -2616228027825960196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_51
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 2442
+        width: 60
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f70a51fdfd9a6c380800000000000000
+      internalID: -8951280430366744449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_52
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 2424
+        width: 60
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a21c8fb9f3777f90800000000000000
+      internalID: -6955963582952762716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_53
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 2406
+        width: 60
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11dc988a74d8ae990800000000000000
+      internalID: -7355911702446486255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_54
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 2226
+        width: 60
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe10dec08a2a01ce0800000000000000
+      internalID: -1436469438476123665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_55
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 2208
+        width: 60
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d81e5d7f6f701db0800000000000000
+      internalID: -4823215084092385071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_56
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 2190
+        width: 60
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af7e9382a623d280800000000000000
+      internalID: -9019823149258211423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_57
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 2172
+        width: 60
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e4d83094513ee50800000000000000
+      internalID: 6837332062614933005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_58
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 2101
+        width: 58
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee21ca92bc7387f50800000000000000
+      internalID: 6879309776525464302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_59
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1829
+        width: 23
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369eab706fffc29a0800000000000000
+      internalID: -6256344350167733917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1619
+        width: 178
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0429e2efd1d272d40800000000000000
+      internalID: 5559461871853933120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_61
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1439
+        width: 128
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b50213a6c2cdced0800000000000000
+      internalID: -2392041668668684878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_62
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1259
+        width: 228
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77bb665bacd828960800000000000000
+      internalID: 7602795022721137527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_63
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1079
+        width: 162
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2b0bb4f4f6d60c0800000000000000
+      internalID: -4580882859602955560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_64
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 949
+        width: 112
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1850bc9a61846cbe0800000000000000
+      internalID: -1457398167232641663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_65
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 927
+        width: 112
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cdb35f8c76306070800000000000000
+      internalID: 8097532038620626372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_66
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 905
+        width: 112
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92db127330c2037e0800000000000000
+      internalID: -1787880659744604887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_67
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 778
+        width: 59
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6ae5c4bda971430800000000000000
+      internalID: 3753639081106384545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_68
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 756
+        width: 36
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089a7a90ce8412330800000000000000
+      internalID: 3684306148777240960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_69
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 734
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6edf542f6ca2141c0800000000000000
+      internalID: -4521285516946702874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_70
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 587
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a218504dc313d6760800000000000000
+      internalID: 7452667095692968234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_71
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 565
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9232a14e849b0f720800000000000000
+      internalID: 2878003884605449001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_72
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 543
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb6137a53736a450800000000000000
+      internalID: 6099623448897743870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_73
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 434
+        width: 60
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c64b5d3df1ac380800000000000000
+      internalID: -8950306314761507720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_74
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 434
+        width: 60
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6676282a3537352a0800000000000000
+      internalID: -6749924613452306586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_75
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 276
+        width: 7
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dff38e97debf0dc0800000000000000
+      internalID: -3670505337996967984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_76
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 276
+        width: 7
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e65b22a02c15d43d0800000000000000
+      internalID: -3220828264664484498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_77
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 48
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5ecf723ffe99b80800000000000000
+      internalID: -8387409003373861378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_78
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 48
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e5860f06be66300800000000000000
+      internalID: 245142031321030294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5759
+        width: 320
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ae8efbe4300b249a56320630775884
+      internalID: 1344713394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5221
+        width: 320
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 517f1413426c92747aa3ed7c3565313e
+      internalID: 299947853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_sprites_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3788
+        width: 318
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1471b788f4aed4f4a820d8dc956fe01e
+      internalID: -863693175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d826a8aaf4bc4794384bd9487fa34971
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Aquarium_sprites_0: -4093942466454035847
+      Aquarium_sprites_1: 1329331668076133191
+      Aquarium_sprites_10: 991580532865066975
+      Aquarium_sprites_11: 1555995288745129239
+      Aquarium_sprites_12: 182367541363275895
+      Aquarium_sprites_13: 8103119834659564255
+      Aquarium_sprites_14: -3957233382601600068
+      Aquarium_sprites_15: 7325419868477845498
+      Aquarium_sprites_16: -4657359482537934592
+      Aquarium_sprites_17: -4644907785516727342
+      Aquarium_sprites_18: 7306512904744353939
+      Aquarium_sprites_19: -494540753171972778
+      Aquarium_sprites_2: -6066801822456931861
+      Aquarium_sprites_20: -4442428197726858764
+      Aquarium_sprites_21: -3262900659327918862
+      Aquarium_sprites_22: -4432490754629397296
+      Aquarium_sprites_23: -8133830699872944713
+      Aquarium_sprites_24: 5847224738403465043
+      Aquarium_sprites_25: -7866632643983113667
+      Aquarium_sprites_26: -2107893710358147003
+      Aquarium_sprites_27: 8124080532557761287
+      Aquarium_sprites_28: -4656063358370264680
+      Aquarium_sprites_29: 4541115762354782397
+      Aquarium_sprites_3: -5037069624880418255
+      Aquarium_sprites_30: 4687139942268933188
+      Aquarium_sprites_31: -172481493112657681
+      Aquarium_sprites_32: 6387528897462922233
+      Aquarium_sprites_33: 5652250203625919939
+      Aquarium_sprites_34: -8396863726709298563
+      Aquarium_sprites_35: 6724011611027093590
+      Aquarium_sprites_36: -7903484284231721060
+      Aquarium_sprites_37: -5413966795189485279
+      Aquarium_sprites_38: -6598809607273887332
+      Aquarium_sprites_39: -2983417655276662543
+      Aquarium_sprites_4: -7985872941878157244
+      Aquarium_sprites_40: 4742525736067828901
+      Aquarium_sprites_41: -7403270908202058183
+      Aquarium_sprites_42: 6653807316043650202
+      Aquarium_sprites_43: 9075126749626224559
+      Aquarium_sprites_44: 4278002323493238038
+      Aquarium_sprites_45: -766396953537093273
+      Aquarium_sprites_46: -2322770536772637421
+      Aquarium_sprites_47: -4132047035253159594
+      Aquarium_sprites_48: 2625398591757939147
+      Aquarium_sprites_49: 5471074360771331313
+      Aquarium_sprites_5: 277134404009782442
+      Aquarium_sprites_50: -2616228027825960196
+      Aquarium_sprites_51: -8951280430366744449
+      Aquarium_sprites_52: -6955963582952762716
+      Aquarium_sprites_53: -7355911702446486255
+      Aquarium_sprites_54: -1436469438476123665
+      Aquarium_sprites_55: -4823215084092385071
+      Aquarium_sprites_56: -9019823149258211423
+      Aquarium_sprites_57: 6837332062614933005
+      Aquarium_sprites_58: 6879309776525464302
+      Aquarium_sprites_59: -6256344350167733917
+      Aquarium_sprites_6: -8788805524748515397
+      Aquarium_sprites_60: 5559461871853933120
+      Aquarium_sprites_61: -2392041668668684878
+      Aquarium_sprites_62: 7602795022721137527
+      Aquarium_sprites_63: -4580882859602955560
+      Aquarium_sprites_64: -1457398167232641663
+      Aquarium_sprites_65: 8097532038620626372
+      Aquarium_sprites_66: -1787880659744604887
+      Aquarium_sprites_67: 3753639081106384545
+      Aquarium_sprites_68: 3684306148777240960
+      Aquarium_sprites_69: -4521285516946702874
+      Aquarium_sprites_7: 6593616816894893740
+      Aquarium_sprites_70: 7452667095692968234
+      Aquarium_sprites_71: 2878003884605449001
+      Aquarium_sprites_72: 6099623448897743870
+      Aquarium_sprites_73: -8950306314761507720
+      Aquarium_sprites_74: -6749924613452306586
+      Aquarium_sprites_75: -3670505337996967984
+      Aquarium_sprites_76: -3220828264664484498
+      Aquarium_sprites_77: -8387409003373861378
+      Aquarium_sprites_78: 245142031321030294
+      Aquarium_sprites_79: 1344713394
+      Aquarium_sprites_8: -5517447313444971925
+      Aquarium_sprites_80: 299947853
+      Aquarium_sprites_81: -863693175
+      Aquarium_sprites_9: -6019527240307593711
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

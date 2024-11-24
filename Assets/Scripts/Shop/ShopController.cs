@@ -55,7 +55,13 @@ public class ShopController : MonoBehaviour
             game.transform.SetParent(GameController.Instance.ActiveTank.transform, true);
             return i;
         }
-
+        else if (itemName == "Fishbo")
+        {
+            GameObject game = Instantiate(prefab).gameObject;
+            Fishbo i = game.gameObject.GetComponent<Fishbo>();
+            game.transform.SetParent(GameController.Instance.ActiveTank.transform, true);
+            return i;
+        }
         return null;
     }
 }
