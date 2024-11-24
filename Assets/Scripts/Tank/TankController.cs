@@ -1,6 +1,8 @@
 using UnityEngine;
 using System.Collections.Generic;
 
+using static Item;
+
 namespace Tank
 {
 public class TankController : MonoBehaviour
@@ -14,6 +16,11 @@ public class TankController : MonoBehaviour
     void Start()
     {
         this.model = new();
+    }
+
+
+    public void BuyHandler(Item i)
+    {
     }
 
 

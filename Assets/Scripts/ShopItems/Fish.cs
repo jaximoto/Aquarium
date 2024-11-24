@@ -1,6 +1,7 @@
 using UnityEngine;
 using static Item;
-class Fish : Item
+
+public class Fish : Item
 {
     public float health, hunger;
     public float pTemp, pPH, pC02, pAlgaeContent, pWaste;
