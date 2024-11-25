@@ -1703,6 +1703,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 600
       objectReference: {fileID: 0}
+    - target: {fileID: 364458460080233095, guid: 99b71d8b770f55a4798a213d84ce69b5, type: 3}
+      propertyPath: m_text
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 669422979074166916, guid: 99b71d8b770f55a4798a213d84ce69b5, type: 3}
       propertyPath: m_text
       value: 40
@@ -1731,9 +1735,19 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -2476096784960187872, guid: afcddf01cc75e4d0eb73658c2247cf57, type: 3}
+    - target: {fileID: 1186314604089434293, guid: 99b71d8b770f55a4798a213d84ce69b5, type: 3}
+      propertyPath: m_text
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 1466982004043882768, guid: 99b71d8b770f55a4798a213d84ce69b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: GreenFish
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644610481294773768, guid: 99b71d8b770f55a4798a213d84ce69b5, type: 3}
+      propertyPath: m_text
+      value: '250
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 1693762551984343799, guid: 99b71d8b770f55a4798a213d84ce69b5, type: 3}
       propertyPath: m_text
@@ -1789,9 +1803,19 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 2338200672518087076, guid: 99b71d8b770f55a4798a213d84ce69b5, type: 3}
+      propertyPath: m_text
+      value: '30
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 2523787138638678273, guid: 99b71d8b770f55a4798a213d84ce69b5, type: 3}
       propertyPath: m_text
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843604334214643035, guid: 99b71d8b770f55a4798a213d84ce69b5, type: 3}
+      propertyPath: m_text
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 2900067808754619337, guid: 99b71d8b770f55a4798a213d84ce69b5, type: 3}
       propertyPath: m_text
@@ -1809,6 +1833,16 @@ PrefabInstance:
       propertyPath: m_text
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3631635998282090601, guid: 99b71d8b770f55a4798a213d84ce69b5, type: 3}
+      propertyPath: m_text
+      value: '180
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3689517585171058478, guid: 99b71d8b770f55a4798a213d84ce69b5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081845166573581764, guid: 99b71d8b770f55a4798a213d84ce69b5, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1824,6 +1858,10 @@ PrefabInstance:
     - target: {fileID: 4532137711114187732, guid: 99b71d8b770f55a4798a213d84ce69b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: GatorFish
+      objectReference: {fileID: 0}
+    - target: {fileID: 5229858155092298398, guid: 99b71d8b770f55a4798a213d84ce69b5, type: 3}
+      propertyPath: m_text
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 5264026041460864921, guid: 99b71d8b770f55a4798a213d84ce69b5, type: 3}
       propertyPath: m_text
@@ -1877,6 +1915,12 @@ PrefabInstance:
       propertyPath: m_text
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 5901483199426713329, guid: 99b71d8b770f55a4798a213d84ce69b5, type: 3}
+      propertyPath: m_text
+      value: '20
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 6090858631452001504, guid: 99b71d8b770f55a4798a213d84ce69b5, type: 3}
       propertyPath: m_text
       value: 50
@@ -1896,6 +1940,10 @@ PrefabInstance:
     - target: {fileID: 6901244462138241823, guid: 99b71d8b770f55a4798a213d84ce69b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: PurpleFish
+      objectReference: {fileID: 0}
+    - target: {fileID: 7038613271691221711, guid: 99b71d8b770f55a4798a213d84ce69b5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7785879768902720670, guid: 99b71d8b770f55a4798a213d84ce69b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -1966,6 +2014,10 @@ PrefabInstance:
     - target: {fileID: 8731304065694379550, guid: 99b71d8b770f55a4798a213d84ce69b5, type: 3}
       propertyPath: m_text
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8789909835984583381, guid: 99b71d8b770f55a4798a213d84ce69b5, type: 3}
+      propertyPath: m_text
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 8830629166809258658, guid: 99b71d8b770f55a4798a213d84ce69b5, type: 3}
       propertyPath: m_Sprite
