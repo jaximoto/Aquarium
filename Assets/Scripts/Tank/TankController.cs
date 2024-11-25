@@ -16,6 +16,7 @@ namespace Tank
         private void OnEnable()
         {
             Activate();
+            view.RenderAllFish(model.myFish);
         }
 
         private void OnDisable()
@@ -106,6 +107,7 @@ namespace Tank
             if (model.myFish.Count < model.maxFish)
             {
                 model.myFish.Add(f);
+                view.RenderFishUI(f);
             }
         }
 
@@ -142,7 +144,6 @@ namespace Tank
         void Update()
         {
             view.RenderTankUI(model.statsDict, model.statsMaxDict);
-            view.RenderFishUI(model.myFish);
             //view.RenderTankStats(model.statsDict);
         }
 

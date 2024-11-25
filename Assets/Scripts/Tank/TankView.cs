@@ -40,6 +40,8 @@ public class TankView : MonoBehaviour
     public GameObject fishHolder;
     public List<GameObject> fishHolders = new();
 
+    public float offsetVal = 0.5f;
+
     void Start()
     {
         statsTextDict = new Dictionary<string, TMP_Text>
@@ -64,11 +66,13 @@ public class TankView : MonoBehaviour
             {"Temp", TempDial}
         };
 
+        /*
         for (int i=0; i<maxFish; i++)
         {
             GameObject newFishHolder = Instantiate(fishHolder, fishGrid);
             fishHolders.Add(newFishHolder);
         }
+        */
 
     }
 
@@ -120,30 +124,43 @@ public class TankView : MonoBehaviour
     }
 
 
-    public void RenderFishUI(List<Fish> myFish)
+    public void RenderFishUI(Fish myFish)
     {
-        Debug.Assert(myFish.Count <= fishHolders.Count);
+        float offset = fishHolders.Count * offsetVal;
 
-        // Holy fuck
-        for (int i=0; i<fishHolders.Count; i++)
-        {
-            fishHolders[i].GetComponent<SpriteRenderer>().sprite = null;
-        }
+        GameObject newFishHolder = Instantiate(fishHolder, fishGrid);
 
-        for (int i=0; i<myFish.Count; i++)
-        {
-            fishHolders[i].GetComponent<SpriteRenderer>().sprite = myFish[i].gameObject.GetComponent<SpriteRenderer>().sprite;
+        //Set sprite
+        newFishHolder.transform.Find("FishHolder").GetComponent<SpriteRenderer>().sprite = myFish.gameObject.GetComponent<SpriteRenderer>().sprite;
+        newFishHolder.transform.Translate(Vector3.down * (offset)); 
 
-        }
+        fishHolders.Add(newFishHolder);
     }
 
 
-    public void KillAllFish(List<Fish> myFish)
+    public void RenderAllFish(List<Fish> myFish)
     {
         for (int i=0; i<fishHolders.Count; i++)
         {
-            fishHolders[i].GetComponent<SpriteRenderer>().sprite = null;
+            fishHolders[i].SetActive(true);
         }
+
+    }
+
+    public void KillAllFish(List<Fish> myFish)
+    {
+        List<GameObject> toDestroy = new();
+        for (int i=0; i<fishHolders.Count; i++)
+        {
+            //fishHolders[i].GetComponent<SpriteRenderer>().sprite = null;
+            //toDestroy.Add(fishHolders[i]);
+            fishHolders[i].SetActive(false);
+        }
+        /*
+        for (int i=0; i<toDestroy.Count; i++)
+        {
+        }
+        */
     }
 
 
