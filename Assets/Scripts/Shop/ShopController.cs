@@ -18,6 +18,7 @@ public class ShopController : MonoBehaviour
     {
         if (playerController.CanBuy(model.resourceMap[itemName]))
         {
+            Debug.Log($"Buying {itemName}");
             OnBuyPlayer?.Invoke(model.resourceMap[itemName]);
             Item i = ItemFactory(itemName);
             OnBuyTank?.Invoke(i);
@@ -135,6 +136,20 @@ public class ShopController : MonoBehaviour
         {
             GameObject game = Instantiate(prefab).gameObject;
             Cooler i = game.gameObject.GetComponent<Cooler>();
+            game.transform.SetParent(GameController.Instance.ActiveTank.transform, true);
+            return i;
+        }
+        else if (itemName == "PurpleFish")
+        {
+            GameObject game = Instantiate(prefab).gameObject;
+            PurpleFish i = game.gameObject.GetComponent<PurpleFish>();
+            game.transform.SetParent(GameController.Instance.ActiveTank.transform, true);
+            return i;
+        }
+        else if (itemName == "GreenFish")
+        {
+            GameObject game = Instantiate(prefab).gameObject;
+            GreenFish i = game.gameObject.GetComponent<GreenFish>();
             game.transform.SetParent(GameController.Instance.ActiveTank.transform, true);
             return i;
         }

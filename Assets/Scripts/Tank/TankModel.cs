@@ -60,13 +60,13 @@ public class TankModel
     public void IncrementStat(string name, float val)
     {
         Debug.Assert(statsDict.ContainsKey(name));
+        Debug.Log($"Adding {val} to {name}");
         statsDict[name] += val;
         if (statsDict[name] < 0)
-            {
-                statsDict[name] = 0;
-            }
-
-        
+        {
+            statsDict[name] = 0;
+        }
+        statsDict[name] = statsDict[name] > statsMaxDict[name] ? statsMaxDict[name] : statsDict[name];
     }
 
 }

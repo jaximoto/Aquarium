@@ -1514,7 +1514,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Buy BubblerV1
+  m_text: 'Buy PurpleFish
 
 '
   m_isRightToLeft: 0
@@ -1965,7 +1965,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Cooler
+          m_StringArgument: Heater1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1578189434
@@ -2505,7 +2505,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: BubblerV1
+          m_StringArgument: PurpleFish
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1850026556

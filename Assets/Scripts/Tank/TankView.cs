@@ -77,7 +77,7 @@ public class TankView : MonoBehaviour
                 Vector3 left = PHLeft.transform.position; 
                 Vector3 oldPos = statsTickDict[stat.Key].transform.position;
 
-                Vector3 newPos = Vector3.Lerp(right, left, pcnt);
+                Vector3 newPos = Vector3.Lerp(left, right, pcnt);
 
                 statsTickDict[stat.Key].transform.position = new Vector3(newPos.x, oldPos.y, oldPos.z);
             }
@@ -85,12 +85,9 @@ public class TankView : MonoBehaviour
             {
                 Vector3 axis = Vector3.forward;
                 float rot = (pcnt * 180) + -90;
-                    Debug.Log($"{gameObject.name}: rot = {rot}");
                 Quaternion targetAngle = Quaternion.Euler(0, 0, -1*rot);
                 statsDialDict[stat.Key].transform.rotation = Quaternion.Slerp(statsDialDict[stat.Key].transform.rotation,
                                                                                 targetAngle, 2.0f*Time.deltaTime);
-
-                Debug.Log($"{gameObject.name}: slerp = {statsDialDict[stat.Key].transform.rotation}");
 
             }
         }

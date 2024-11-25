@@ -26,7 +26,9 @@ public class ShopModel
             {"Heater1", makeDict(new int[]{20, 0, 0}) },
             {"Heater2", makeDict(new int[]{40, 0, 0}) },
             {"Heater3", makeDict(new int[]{100, 0, 0}) },
-            {"Cooler", makeDict(new int[]{30, 0, 0}) }
+            {"Cooler", makeDict(new int[]{30, 0, 0}) },
+            {"PurpleFish", makeDict(new int[]{40, 0, 0}) },
+            {"GreenFish", makeDict(new int[]{40, 0, 0}) }
 
         };
 
