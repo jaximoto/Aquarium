@@ -22,7 +22,10 @@ public class Fish : Item
     public float maxHealth = 10f;
     public float health, hunger;
     public float pTemp, pPH, pC02, pAlgaeContent, pWaste;
-    public float outTemp, outPH, outC02, outAlgaeContent, outWaste;
+    public float outTemp, outPH, outC02, outAlgaeContent, outWaste, outMoney, outFishOil, outCoral;
+    public GameObject myBubble;
+    public GameObject goldBubble;
+    public float bubbleOffset = 1.5f;
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
     //go over fish stats and preferences.
@@ -39,7 +42,7 @@ public class Fish : Item
 
     }
 
-
+    //every fish finds the player controller on awake and calls the player controller increment stat for each of their resources
     public override void UpdateTank(ref TankModel tankModel)
     {
         tankModel.IncrementStat("Temp", this.outTemp);
@@ -49,8 +52,21 @@ public class Fish : Item
         tankModel.IncrementStat("PH", this.outPH);
 
         
-    }
+        
 
+    }
+    public void MakeGoldBubble()
+    {
+        Vector2 tmp = transform.position;
+        tmp.y += bubbleOffset;
+        myBubble = Instantiate(goldBubble, tmp, Quaternion.identity);
+        myBubble.transform.SetParent(transform, true);
+    }
+    public void DestroyBubble()
+    {
+        Destroy(myBubble);
+        myBubble = null;
+    }
     public override void UpdateSelf(ref TankModel tankModel)
     {
         CalcFishStatus(ref tankModel);
@@ -63,7 +79,11 @@ public class Fish : Item
         {
             health -= 1;
             if (health <= 0)
+            {
                 currentStatus = Status.dead;
+                rb.constraints = RigidbodyConstraints2D.None;
+            }
+                
         }
 
         if (currentStatus == Status.healthy || currentStatus == Status.plusUltra)
@@ -71,6 +91,11 @@ public class Fish : Item
             health += 1;
             if (health < maxHealth)
                 health = maxHealth;
+        }
+
+        if (currentStatus == Status.dead)
+        {
+            rb.AddForce(Vector2.up);
         }
     }
     public void UpdateStatus(float fishStatus)
@@ -87,10 +112,18 @@ public class Fish : Item
         {
             currentStatus = Status.healthy;
         }
-        else if (fishStatus > .75 )
+        else if (fishStatus > .75)
         {
             currentStatus = Status.plusUltra;
         }
+        
+        if (currentStatus != Status.dead && currentStatus != Status.dying)
+        {
+            if(myBubble == null)
+                MakeGoldBubble();
+        }
+
+        UpdateHealth();
 
     }
     public void CalcFishStatus(ref TankModel tankModel)
@@ -352,7 +385,8 @@ public class Fish : Item
 
     public virtual void Update()
     {
-        WhenToMove();
+        if (currentStatus != Status.dead)
+            WhenToMove();
         FlipSprite();
     }
 

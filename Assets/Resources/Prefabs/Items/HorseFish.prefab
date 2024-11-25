@@ -101,30 +101,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44cdebc6f3df541ad883143aee24715e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  debug: 0
   minX: -8.5
   maxX: 7.5
   minY: -4.5
   maxY: 4.5
   minForce: 5
   maxForce: 20
-  moveSpeed: 5
+  moveSpeed: 6
   timeLastMoved: 0
-  timeBetweenMoves: 3
+  timeBetweenMoves: 1
   isMoving: 0
   moveTarget: {x: 0, y: 0}
-  health: 0
-  hunger: 0
-  pTemp: 0
-  pPH: 0
-  pC02: 0
-  pAlgaeContent: 0
-  pWaste: 0
-  outTemp: 0
-  outPH: 0
-  outC02: 0
-  outAlgaeContent: 0
-  outWaste: 0
+  maxHealth: 10
+  health: 8
+  hunger: 5
+  pTemp: 30
+  pPH: 7
+  pC02: 500
+  pAlgaeContent: 50
+  pWaste: 50
+  outTemp: 5
+  outPH: 0.5
+  outC02: 50
+  outAlgaeContent: 10
+  outWaste: 10
+  outMoney: 30
+  outFishOil: 1
+  outCoral: 1
+  myBubble: {fileID: 0}
+  goldBubble: {fileID: 4858417145468659484, guid: 370dc383111013e439a4823b629fc729, type: 3}
+  bubbleOffset: 0.8
   fishStatus: 0.65
+  currentStatus: 3
 --- !u!50 &1538220556657672170
 Rigidbody2D:
   serializedVersion: 5
