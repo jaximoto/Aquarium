@@ -84,10 +84,13 @@ public class TankView : MonoBehaviour
             else if (statsDialDict.ContainsKey(stat.Key))
             {
                 Vector3 axis = Vector3.forward;
-                float rot = (pcnt - 0.5f) * 90;
-                Quaternion targetAngle = Quaternion.Euler(0, 0, rot);
+                float rot = (pcnt * 180) + -90;
+                    Debug.Log($"{gameObject.name}: rot = {rot}");
+                Quaternion targetAngle = Quaternion.Euler(0, 0, -1*rot);
                 statsDialDict[stat.Key].transform.rotation = Quaternion.Slerp(statsDialDict[stat.Key].transform.rotation,
                                                                                 targetAngle, 2.0f*Time.deltaTime);
+
+                Debug.Log($"{gameObject.name}: slerp = {statsDialDict[stat.Key].transform.rotation}");
 
             }
         }

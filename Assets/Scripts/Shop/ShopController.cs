@@ -70,6 +70,46 @@ public class ShopController : MonoBehaviour
             game.transform.SetParent(GameController.Instance.ActiveTank.transform, true);
             return i;
         }
+        else if (itemName == "BubblerV1")
+        {
+            GameObject game = Instantiate(prefab).gameObject;
+            BubblerV1 i = game.gameObject.GetComponent<BubblerV1>();
+            game.transform.SetParent(GameController.Instance.ActiveTank.transform, true);
+            return i;
+        }
+
+        else if (itemName == "BubblerV2")
+        {
+            GameObject game = Instantiate(prefab).gameObject;
+            BubblerV2 i = game.gameObject.GetComponent<BubblerV2>();
+            game.transform.SetParent(GameController.Instance.ActiveTank.transform, true);
+            return i;
+        }
+
+        else if (itemName == "AirBlaster")
+        {
+            GameObject game = Instantiate(prefab).gameObject;
+            AirBlaster i = game.gameObject.GetComponent<AirBlaster>();
+            game.transform.SetParent(GameController.Instance.ActiveTank.transform, true);
+            return i;
+        }
+
+        else if (itemName == "AirBlasterDeluxe")
+        {
+            GameObject game = Instantiate(prefab).gameObject;
+            AirBlasterDeluxe i = game.gameObject.GetComponent<AirBlasterDeluxe>();
+            game.transform.SetParent(GameController.Instance.ActiveTank.transform, true);
+            return i;
+        }
+
+        else if (itemName == "Filtercano")
+        {
+            GameObject game = Instantiate(prefab).gameObject;
+            Filtercano i = game.gameObject.GetComponent<Filtercano>();
+            game.transform.SetParent(GameController.Instance.ActiveTank.transform, true);
+            return i;
+        }
+
         return null;
     }
 }

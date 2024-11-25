@@ -61,6 +61,12 @@ public class TankModel
     {
         Debug.Assert(statsDict.ContainsKey(name));
         statsDict[name] += val;
+        if (statsDict[name] < 0)
+            {
+                statsDict[name] = 0;
+            }
+
+        
     }
 
 }
