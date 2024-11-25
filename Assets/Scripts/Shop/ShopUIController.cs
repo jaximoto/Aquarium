@@ -2,6 +2,7 @@ using NUnit.Framework;
 using UnityEngine;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 
 public class ShopUIController : MonoBehaviour
 {
@@ -13,9 +14,15 @@ public class ShopUIController : MonoBehaviour
     public GameObject shopPassivePage;
     
     public GameObject shopContainer;
+    public GameObject topTransform;
     public float scrollSpeed;
+    private float bottomBound;
+    private float topBound;
     private void Awake()
     {
+        bottomBound = topTransform.transform.position.y - .01f;
+        topBound = bottomBound + 20;
+
         shopCategories = new List<GameObject>()
         {
             shopFishPage, shopConsumablesPage, shopPassivePage
@@ -31,8 +38,20 @@ public class ShopUIController : MonoBehaviour
         {
             if (hit.transform.gameObject.name == "ScrollArea")
             {
-                Debug.Log("scroll = " + Input.mouseScrollDelta);
-                shopContainer.transform.Translate(Input.mouseScrollDelta * scrollSpeed * Time.deltaTime);
+                if (bottomBound < topTransform.transform.position.y && topTransform.transform.position.y < topBound) 
+                {
+                    shopContainer.transform.Translate(Input.mouseScrollDelta * scrollSpeed * Time.deltaTime * -1);
+                    if (bottomBound > topTransform.transform.position.y)
+                    {
+                        shopContainer.transform.Translate(Vector3.up * scrollSpeed * Time.deltaTime);
+                    }
+                    if (topTransform.transform.position.y > topBound)
+                    {
+                        shopContainer.transform.Translate(Vector3.down * scrollSpeed * Time.deltaTime);
+                    }
+                }
+                
+                
             }
         }
     }
