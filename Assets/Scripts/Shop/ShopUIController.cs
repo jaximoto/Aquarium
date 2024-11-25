@@ -26,11 +26,13 @@ public class ShopUIController : MonoBehaviour
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
+        
         if (Physics.Raycast(ray, out hit, 100))
         {
-            if (hit.transform.gameObject.name == "ScrollZone" && Input.mouseScrollDelta != Vector2.zero)
+            if (hit.transform.gameObject.name == "ScrollArea")
             {
-                transform.Translate(Input.mouseScrollDelta * scrollSpeed * Time.deltaTime);
+                Debug.Log("scroll = " + Input.mouseScrollDelta);
+                shopContainer.transform.Translate(Input.mouseScrollDelta * scrollSpeed * Time.deltaTime);
             }
         }
     }
