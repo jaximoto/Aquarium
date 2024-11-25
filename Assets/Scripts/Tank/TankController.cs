@@ -98,7 +98,6 @@ namespace Tank
 
         void BuyConsumableHandler(Consumable c)
         {
-            c.UpdateTank(ref this.model);
         }
 
 
