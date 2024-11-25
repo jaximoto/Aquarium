@@ -100,6 +100,7 @@ namespace Tank
                 item.UpdateSelf();
             }
 
+            Debug.Log($"{gameObject.name}: C02 = {model.statsDict["CO2"]}");
         }
 
         // Update is called once per frame
