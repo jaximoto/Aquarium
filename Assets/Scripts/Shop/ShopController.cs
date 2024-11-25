@@ -110,6 +110,34 @@ public class ShopController : MonoBehaviour
             return i;
         }
 
+        else if (itemName == "Heater1")
+        {
+            GameObject game = Instantiate(prefab).gameObject;
+            Heater1 i = game.gameObject.GetComponent<Heater1>();
+            game.transform.SetParent(GameController.Instance.ActiveTank.transform, true);
+            return i;
+        }
+        else if (itemName == "Heater2")
+        {
+            GameObject game = Instantiate(prefab).gameObject;
+            Heater2 i = game.gameObject.GetComponent<Heater2>();
+            game.transform.SetParent(GameController.Instance.ActiveTank.transform, true);
+            return i;
+        }
+        else if (itemName == "Heater3")
+        {
+            GameObject game = Instantiate(prefab).gameObject;
+            Heater3 i = game.gameObject.GetComponent<Heater3>();
+            game.transform.SetParent(GameController.Instance.ActiveTank.transform, true);
+            return i;
+        }
+        else if (itemName == "Cooler")
+        {
+            GameObject game = Instantiate(prefab).gameObject;
+            Cooler i = game.gameObject.GetComponent<Cooler>();
+            game.transform.SetParent(GameController.Instance.ActiveTank.transform, true);
+            return i;
+        }
         return null;
     }
 }
