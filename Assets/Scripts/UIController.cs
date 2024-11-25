@@ -89,7 +89,7 @@ public class UIController : MonoBehaviour
         Debug.Log("shoptab transform = " + shopTab.transform.position.x);
         while (shopTab.transform.position.x < shopTarget) 
         {
-            shopTab.transform.Translate(Vector3.right * tabMoveSpeed * Time.deltaTime);
+            shopTab.transform.Translate(Vector3.left * tabMoveSpeed * Time.deltaTime);
             yield return null;
         }
     }
@@ -134,7 +134,7 @@ public class UIController : MonoBehaviour
     {
         while (shopTab.transform.position.x > shopTabHomeX)
         {
-            shopTab.transform.Translate(Vector3.left * tabMoveSpeed * Time.deltaTime);
+            shopTab.transform.Translate(Vector3.right * tabMoveSpeed * Time.deltaTime);
             yield return null;
         }
         shopTabOpen = false;

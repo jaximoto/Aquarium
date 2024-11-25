@@ -7,11 +7,11 @@ public class ShopUIController : MonoBehaviour
 {
     public TMP_Text categoryText;
     public int currentIndex = 0;
-    public List<string> shopCategories;
+    public List<string> shopCategories = new List<string>();
 
     private void Awake()
     {
-        shopCategories = new List<string>();
+       
     }
 
     public void MoveLeft()
@@ -43,7 +43,7 @@ public class ShopUIController : MonoBehaviour
         {
             currentIndex = newIdx;
         }
-        
+        Debug.Log("Current Index = " +  currentIndex); 
         categoryText.text = shopCategories[currentIndex];
     }
 
