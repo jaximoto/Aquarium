@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7650697128486031777}
   m_Layer: 0
   m_Name: Cove
-  m_TagString: Untagged
+  m_TagString: Decorations
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -103,6 +103,6 @@ MonoBehaviour:
   fishStatMod: 0.1
   tempMod: 0
   PHMod: 0
-  C02Mod: 0
+  CO2Mod: 0
   algaeMod: 0
   wasteMod: 0
