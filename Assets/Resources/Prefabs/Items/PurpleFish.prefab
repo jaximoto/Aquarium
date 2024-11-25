@@ -114,6 +114,7 @@ MonoBehaviour:
   timeBetweenMoves: 3
   isMoving: 0
   moveTarget: {x: 0, y: 0}
+  maxHealth: 10
   health: 5
   hunger: 3
   pTemp: 20
@@ -126,7 +127,14 @@ MonoBehaviour:
   outC02: 10
   outAlgaeContent: 5
   outWaste: 5
+  outMoney: 10
+  outFishOil: 2
+  outCoral: 0
+  myBubble: {fileID: 0}
+  goldBubble: {fileID: 4858417145468659484, guid: 370dc383111013e439a4823b629fc729, type: 3}
+  bubbleOffset: 0.5
   fishStatus: 0.65
+  currentStatus: 3
 --- !u!50 &7556436023626593151
 Rigidbody2D:
   serializedVersion: 5

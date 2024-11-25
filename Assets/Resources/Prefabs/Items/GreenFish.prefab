@@ -102,30 +102,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8f2d5f4a238047af92028e04bb127ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  debug: 0
   minX: -8.5
   maxX: 7.5
   minY: -4.5
   maxY: 4.5
   minForce: 5
   maxForce: 20
-  moveSpeed: 7
+  moveSpeed: 10
   timeLastMoved: 0
-  timeBetweenMoves: 2
+  timeBetweenMoves: 1
   isMoving: 0
   moveTarget: {x: 0, y: 0}
-  health: 0
-  hunger: 0
-  pTemp: 0
-  pPH: 0
-  pC02: 0
-  pAlgaeContent: 0
-  pWaste: 0
-  outTemp: 0
-  outPH: 0
-  outC02: 0
-  outAlgaeContent: 10
+  maxHealth: 10
+  health: 6
+  hunger: 6
+  pTemp: 40
+  pPH: 5
+  pC02: 500
+  pAlgaeContent: 60
+  pWaste: 30
+  outTemp: 20
+  outPH: -1
+  outC02: 35
+  outAlgaeContent: 20
   outWaste: 10
+  outMoney: 40
+  outFishOil: 2
+  outCoral: 3
+  myBubble: {fileID: 0}
+  goldBubble: {fileID: 4858417145468659484, guid: 370dc383111013e439a4823b629fc729, type: 3}
+  bubbleOffset: 0.5
   fishStatus: 0.65
+  currentStatus: 3
 --- !u!61 &2995158423180873389
 BoxCollider2D:
   m_ObjectHideFlags: 0
