@@ -1,5 +1,6 @@
 
 using Tank;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Fish : Item
@@ -33,6 +34,33 @@ public class Fish : Item
 
     }
 
+
+    public override void UpdateTank(ref TankModel tankModel)
+    {
+        tankModel.IncrementStat("Temp", this.outTemp);
+        tankModel.IncrementStat("CO2", this.outC02);
+        tankModel.IncrementStat("Waste", this.outWaste);
+        tankModel.IncrementStat("Algae", this.outAlgaeContent);
+        tankModel.IncrementStat("PH", this.outPH);
+    }
+    public void CalcFishStatus()
+    {
+        // C02 0 - 1000
+        // Temp 0 - 50
+        // Waste 0 - 100
+        // PH 0 - 14
+        // Algae 0 - 100
+
+    }
+
+    public void C02Calc()
+    {
+
+    }
+    public void UpdateFishStatus()
+    {
+
+    }
     public virtual void WhenToMove()
     {
         if (!isMoving)
