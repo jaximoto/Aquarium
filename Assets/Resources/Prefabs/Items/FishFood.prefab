@@ -102,7 +102,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fishStatMod: 0
-  fishHungerMod: 1
+  fishHungerMod: 2
   tempMod: 0
   PHMod: 0
   CO2Mod: 0

@@ -133,6 +133,7 @@ public class TankView : MonoBehaviour
         for (int i=0; i<myFish.Count; i++)
         {
             fishHolders[i].GetComponent<SpriteRenderer>().sprite = myFish[i].gameObject.GetComponent<SpriteRenderer>().sprite;
+
         }
     }
 
