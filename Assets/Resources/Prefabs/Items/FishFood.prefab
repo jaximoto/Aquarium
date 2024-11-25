@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 917798862136004451}
   - component: {fileID: 6678930735231882374}
   - component: {fileID: -69905946548752178}
+  - component: {fileID: 4960297849912080597}
   m_Layer: 0
   m_Name: FishFood
   m_TagString: Untagged
@@ -102,6 +103,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fishStatMod: 0
   fishHungerMod: 1
+  tempMod: 0
+  PHMod: 0
+  CO2Mod: 0
+  algaeMod: 0
+  wasteMod: 0
+--- !u!114 &4960297849912080597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3636589100171470998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2b2d1b291c82b747a25da2fa616b80a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fishStatMod: 0
+  fishHungerMod: 0
   tempMod: 0
   PHMod: 0
   CO2Mod: 0
