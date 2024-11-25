@@ -3270,6 +3270,50 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4915543044108921463, guid: cf0b00af8494944969579c9745cd8a38, type: 3}
+      propertyPath: PHLeft
+      value: 
+      objectReference: {fileID: 150451532}
+    - target: {fileID: 4915543044108921463, guid: cf0b00af8494944969579c9745cd8a38, type: 3}
+      propertyPath: PHTick
+      value: 
+      objectReference: {fileID: 979309529}
+    - target: {fileID: 4915543044108921463, guid: cf0b00af8494944969579c9745cd8a38, type: 3}
+      propertyPath: CO2Dial
+      value: 
+      objectReference: {fileID: 464679651}
+    - target: {fileID: 4915543044108921463, guid: cf0b00af8494944969579c9745cd8a38, type: 3}
+      propertyPath: PHRight
+      value: 
+      objectReference: {fileID: 2072573523}
+    - target: {fileID: 4915543044108921463, guid: cf0b00af8494944969579c9745cd8a38, type: 3}
+      propertyPath: TempDial
+      value: 
+      objectReference: {fileID: 675456366}
+    - target: {fileID: 4915543044108921463, guid: cf0b00af8494944969579c9745cd8a38, type: 3}
+      propertyPath: AlgaeTick
+      value: 
+      objectReference: {fileID: 1748307933}
+    - target: {fileID: 4915543044108921463, guid: cf0b00af8494944969579c9745cd8a38, type: 3}
+      propertyPath: WasteTick
+      value: 
+      objectReference: {fileID: 418702679}
+    - target: {fileID: 4915543044108921463, guid: cf0b00af8494944969579c9745cd8a38, type: 3}
+      propertyPath: CO2DialLeft
+      value: 
+      objectReference: {fileID: 914510380}
+    - target: {fileID: 4915543044108921463, guid: cf0b00af8494944969579c9745cd8a38, type: 3}
+      propertyPath: CO2DialRight
+      value: 
+      objectReference: {fileID: 1214400430}
+    - target: {fileID: 4915543044108921463, guid: cf0b00af8494944969579c9745cd8a38, type: 3}
+      propertyPath: TempDialLeft
+      value: 
+      objectReference: {fileID: 1404819739}
+    - target: {fileID: 4915543044108921463, guid: cf0b00af8494944969579c9745cd8a38, type: 3}
+      propertyPath: TempDialRight
+      value: 
+      objectReference: {fileID: 282744883}
     - target: {fileID: 6827406348880925150, guid: cf0b00af8494944969579c9745cd8a38, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3763,6 +3807,50 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4915543044108921463, guid: cf0b00af8494944969579c9745cd8a38, type: 3}
+      propertyPath: PHLeft
+      value: 
+      objectReference: {fileID: 150451532}
+    - target: {fileID: 4915543044108921463, guid: cf0b00af8494944969579c9745cd8a38, type: 3}
+      propertyPath: PHTick
+      value: 
+      objectReference: {fileID: 979309529}
+    - target: {fileID: 4915543044108921463, guid: cf0b00af8494944969579c9745cd8a38, type: 3}
+      propertyPath: CO2Dial
+      value: 
+      objectReference: {fileID: 464679651}
+    - target: {fileID: 4915543044108921463, guid: cf0b00af8494944969579c9745cd8a38, type: 3}
+      propertyPath: PHRight
+      value: 
+      objectReference: {fileID: 2072573523}
+    - target: {fileID: 4915543044108921463, guid: cf0b00af8494944969579c9745cd8a38, type: 3}
+      propertyPath: TempDial
+      value: 
+      objectReference: {fileID: 675456366}
+    - target: {fileID: 4915543044108921463, guid: cf0b00af8494944969579c9745cd8a38, type: 3}
+      propertyPath: AlgaeTick
+      value: 
+      objectReference: {fileID: 1748307933}
+    - target: {fileID: 4915543044108921463, guid: cf0b00af8494944969579c9745cd8a38, type: 3}
+      propertyPath: WasteTick
+      value: 
+      objectReference: {fileID: 418702679}
+    - target: {fileID: 4915543044108921463, guid: cf0b00af8494944969579c9745cd8a38, type: 3}
+      propertyPath: CO2DialLeft
+      value: 
+      objectReference: {fileID: 914510380}
+    - target: {fileID: 4915543044108921463, guid: cf0b00af8494944969579c9745cd8a38, type: 3}
+      propertyPath: CO2DialRight
+      value: 
+      objectReference: {fileID: 1214400430}
+    - target: {fileID: 4915543044108921463, guid: cf0b00af8494944969579c9745cd8a38, type: 3}
+      propertyPath: TempDialLeft
+      value: 
+      objectReference: {fileID: 1404819739}
+    - target: {fileID: 4915543044108921463, guid: cf0b00af8494944969579c9745cd8a38, type: 3}
+      propertyPath: TempDialRight
+      value: 
+      objectReference: {fileID: 282744883}
     - target: {fileID: 6827406348880925150, guid: cf0b00af8494944969579c9745cd8a38, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
