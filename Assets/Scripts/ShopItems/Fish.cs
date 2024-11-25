@@ -79,7 +79,11 @@ public class Fish : Item
         {
             health -= 1;
             if (health <= 0)
+            {
                 currentStatus = Status.dead;
+                rb.constraints = RigidbodyConstraints2D.None;
+            }
+                
         }
 
         if (currentStatus == Status.healthy || currentStatus == Status.plusUltra)
@@ -87,6 +91,11 @@ public class Fish : Item
             health += 1;
             if (health < maxHealth)
                 health = maxHealth;
+        }
+
+        if (currentStatus == Status.dead)
+        {
+            rb.AddForce(Vector2.up);
         }
     }
     public void UpdateStatus(float fishStatus)
@@ -103,15 +112,18 @@ public class Fish : Item
         {
             currentStatus = Status.healthy;
         }
-        else if (fishStatus > .75 )
+        else if (fishStatus > .75)
         {
             currentStatus = Status.plusUltra;
         }
-
-        if (currentStatus != Status.dead || currentStatus != Status.dying)
+        
+        if (currentStatus != Status.dead && currentStatus != Status.dying)
         {
-            MakeGoldBubble();
+            if(myBubble == null)
+                MakeGoldBubble();
         }
+
+        UpdateHealth();
 
     }
     public void CalcFishStatus(ref TankModel tankModel)
@@ -373,7 +385,8 @@ public class Fish : Item
 
     public virtual void Update()
     {
-        WhenToMove();
+        if (currentStatus != Status.dead)
+            WhenToMove();
         FlipSprite();
     }
 
