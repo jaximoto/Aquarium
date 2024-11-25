@@ -11,11 +11,7 @@ public class GreenFish : Fish
     }
 
 
-    public override void UpdateTank(ref TankModel tankModel)
-    {
-        tankModel.IncrementStat("Algae", this.outAlgaeContent);
-        tankModel.IncrementStat("Waste", this.outWaste);
-    }
+    
 
 
    

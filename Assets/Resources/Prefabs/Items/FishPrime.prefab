@@ -122,7 +122,7 @@ MonoBehaviour:
   pWaste: 100
   outTemp: 5
   outPH: 4
-  outC02: 6
+  outC02: 600
   outAlgaeContent: 6
   outWaste: 4
   fishStatus: 0.65
