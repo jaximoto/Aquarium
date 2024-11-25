@@ -100,12 +100,14 @@ namespace Tank
                 item.UpdateSelf();
             }
 
+            Debug.Log($"{gameObject.name}: C02 = {model.statsDict["CO2"]}");
         }
 
         // Update is called once per frame
         void Update()
         {
-            view.RenderTankStats(model.statsDict);
+            view.RenderTankUI(model.statsDict, model.statsMaxDict);
+            //view.RenderTankStats(model.statsDict);
         }
     }
 }

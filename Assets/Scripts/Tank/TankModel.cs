@@ -10,6 +10,7 @@ public class TankModel
 
     //TODO: make a stat abstract class that checks limits when stats are modified
     public Dictionary<string, float> statsDict;
+    public Dictionary<string, float> statsMaxDict;
 
     public List<Fish> myFish;
     
@@ -24,8 +25,18 @@ public class TankModel
             {"CO2", 100},
             {"Temp", 5},
             {"Waste", 10},
-            {"PH", 10},
+            {"PH", 5},
             {"Algae", 10}
+        };
+
+        statsMaxDict = new Dictionary<string, float> 
+        {
+            // random values for now
+            {"CO2", 1000},
+            {"Temp", 50},
+            {"Waste", 100},
+            {"PH", 14},
+            {"Algae", 100}
         };
 
         myItems = new List<Item>();
@@ -50,6 +61,12 @@ public class TankModel
     {
         Debug.Assert(statsDict.ContainsKey(name));
         statsDict[name] += val;
+        if (statsDict[name] < 0)
+            {
+                statsDict[name] = 0;
+            }
+
+        
     }
 
 }
