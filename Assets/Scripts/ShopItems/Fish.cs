@@ -19,6 +19,7 @@ public class Fish : Item
     public float timeBetweenMoves = 3f;
     public bool isMoving = false;
     public Vector2 moveTarget;
+    public float maxHealth = 10f;
     public float health, hunger;
     public float pTemp, pPH, pC02, pAlgaeContent, pWaste;
     public float outTemp, outPH, outC02, outAlgaeContent, outWaste;
@@ -55,7 +56,23 @@ public class Fish : Item
         CalcFishStatus(ref tankModel);
         UpdateStatus(fishStatus);
     }
+   
+    public void UpdateHealth()
+    {
+        if (currentStatus == Status.dying)
+        {
+            health -= 1;
+            if (health <= 0)
+                currentStatus = Status.dead;
+        }
 
+        if (currentStatus == Status.healthy || currentStatus == Status.plusUltra)
+        {
+            health += 1;
+            if (health < maxHealth)
+                health = maxHealth;
+        }
+    }
     public void UpdateStatus(float fishStatus)
     {
         if (fishStatus < .25)
@@ -110,6 +127,12 @@ public class Fish : Item
         WasteCalc(tankModel.GetStat("Waste"));
         PHCalc(tankModel.GetStat("PH"));
         AlgaeCalc(tankModel.GetStat("Algae"));
+
+        if (hunger < 5)
+        {
+            fishStatus -= .1f;
+            Mathf.Clamp01(fishStatus);
+        }
     }
 
     void StatCalc(float tolerance, float tankValue, float preference)
