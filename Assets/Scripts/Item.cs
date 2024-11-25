@@ -8,7 +8,7 @@ public class Item : MonoBehaviour
 
     public virtual void UpdateTank(ref TankModel tankModel)
     { Debug.Assert(false); }
-    public virtual void UpdateSelf()
+    public virtual void UpdateSelf(ref TankModel tankModel)
     { Debug.Assert(false); }
 
 }

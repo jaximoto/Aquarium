@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class FishFood : Consumable
 {
-    public override void UpdateSelf()
+    public override void UpdateSelf(ref TankModel tankModel)
     {
         Destroy(gameObject);
         return;
