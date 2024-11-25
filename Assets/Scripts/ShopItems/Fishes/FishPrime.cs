@@ -5,10 +5,7 @@ using Tank;
 
 public class FishPrime : Fish
 {
-    public override void Move()
-    {
-        return;
-    }
+    
 
     public override void UpdateSelf()
     {
@@ -22,9 +19,6 @@ public class FishPrime : Fish
     }
 
 
-    private void Update()
-    {
-        Move();
-    }
+   
 
 }
