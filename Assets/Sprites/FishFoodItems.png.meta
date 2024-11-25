@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: deeab6c42b20fee419f5eb25ddbc63d3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6245212198840264415
+    second: FishFoodItems_0
+  - first:
+      213: -2945852191763543570
+    second: FishFoodItems_1
+  - first:
+      213: 2981187060478997293
+    second: FishFoodItems_2
+  - first:
+      213: 1786080896759343945
+    second: FishFoodItems_3
+  - first:
+      213: 1807442829610479033
+    second: FishFoodItems_4
+  - first:
+      213: -3285390990856361307
+    second: FishFoodItems_5
+  - first:
+      213: 309773035270145763
+    second: FishFoodItems_6
+  - first:
+      213: -4444042164593593063
+    second: FishFoodItems_7
+  - first:
+      213: 1572801328348437792
+    second: FishFoodItems_8
+  - first:
+      213: 7219710326021256500
+    second: FishFoodItems_9
+  - first:
+      213: -6952985962917679405
+    second: FishFoodItems_10
+  - first:
+      213: 2983197473741343601
+    second: FishFoodItems_11
+  - first:
+      213: 4400327996442785962
+    second: FishFoodItems_12
+  - first:
+      213: -5132916118602404252
+    second: FishFoodItems_13
+  - first:
+      213: -4719020374833866132
+    second: FishFoodItems_14
+  - first:
+      213: -4236018490041979598
+    second: FishFoodItems_15
+  - first:
+      213: 68689284706608506
+    second: FishFoodItems_16
+  - first:
+      213: 308199714375109339
+    second: FishFoodItems_17
+  - first:
+      213: -1484045299358941202
+    second: FishFoodItems_18
+  - first:
+      213: -7145779182055386767
+    second: FishFoodItems_19
+  - first:
+      213: 3483247740711834414
+    second: FishFoodItems_20
+  - first:
+      213: -8557463891533834928
+    second: FishFoodItems_21
+  - first:
+      213: -5576224963105774233
+    second: FishFoodItems_22
+  - first:
+      213: 3082189169684834339
+    second: FishFoodItems_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FishFoodItems_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 166
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd66fc208637ba650800000000000000
+      internalID: 6245212198840264415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishFoodItems_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 168
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9c0251a0b3e17d0800000000000000
+      internalID: -2945852191763543570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishFoodItems_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 148
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2377d426dd4f5920800000000000000
+      internalID: 2981187060478997293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishFoodItems_3
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 159
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ba37fcc1f69c810800000000000000
+      internalID: 1786080896759343945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishFoodItems_4
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 149
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd62c26da3551910800000000000000
+      internalID: 1807442829610479033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishFoodItems_5
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 145
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aaecb1fc42f762d0800000000000000
+      internalID: -3285390990856361307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishFoodItems_6
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 152
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e685403fe88c4400800000000000000
+      internalID: 309773035270145763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishFoodItems_7
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 151
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9157a8462379352c0800000000000000
+      internalID: -4444042164593593063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishFoodItems_8
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 138
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02d987e9976b3d510800000000000000
+      internalID: 1572801328348437792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishFoodItems_9
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 136
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43577b33a40913460800000000000000
+      internalID: 7219710326021256500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishFoodItems_10
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 135
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dea300fa18028f90800000000000000
+      internalID: -6952985962917679405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishFoodItems_11
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 119
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17b0235fb42766920800000000000000
+      internalID: 2983197473741343601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishFoodItems_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 114
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa8bd23bffa111d30800000000000000
+      internalID: 4400327996442785962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishFoodItems_13
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 103
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46ea3d84cf734c8b0800000000000000
+      internalID: -5132916118602404252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishFoodItems_14
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 120
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a5236b8fba28eb0800000000000000
+      internalID: -4719020374833866132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishFoodItems_15
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 120
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23daf0f60a3a635c0800000000000000
+      internalID: -4236018490041979598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishFoodItems_16
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 113
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7520de5a8804f000800000000000000
+      internalID: 68689284706608506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishFoodItems_17
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 105
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda843fd102f64400800000000000000
+      internalID: 308199714375109339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishFoodItems_18
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 104
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eef3f1db9ac976be0800000000000000
+      internalID: -1484045299358941202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishFoodItems_19
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 86
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1711532a1b715dc90800000000000000
+      internalID: -7145779182055386767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishFoodItems_20
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 70
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e239fc97d5bf65030800000000000000
+      internalID: 3483247740711834414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishFoodItems_21
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 89
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 055d4e61ee7cd3980800000000000000
+      internalID: -8557463891533834928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishFoodItems_22
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 62
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7652a6ea0f44d92b0800000000000000
+      internalID: -5576224963105774233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishFoodItems_23
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 37
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 328ee9d38b226ca20800000000000000
+      internalID: 3082189169684834339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d8b61e3aa85398d47a8ac040c67718fe
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FishFoodItems_0: 6245212198840264415
+      FishFoodItems_1: -2945852191763543570
+      FishFoodItems_10: -6952985962917679405
+      FishFoodItems_11: 2983197473741343601
+      FishFoodItems_12: 4400327996442785962
+      FishFoodItems_13: -5132916118602404252
+      FishFoodItems_14: -4719020374833866132
+      FishFoodItems_15: -4236018490041979598
+      FishFoodItems_16: 68689284706608506
+      FishFoodItems_17: 308199714375109339
+      FishFoodItems_18: -1484045299358941202
+      FishFoodItems_19: -7145779182055386767
+      FishFoodItems_2: 2981187060478997293
+      FishFoodItems_20: 3483247740711834414
+      FishFoodItems_21: -8557463891533834928
+      FishFoodItems_22: -5576224963105774233
+      FishFoodItems_23: 3082189169684834339
+      FishFoodItems_3: 1786080896759343945
+      FishFoodItems_4: 1807442829610479033
+      FishFoodItems_5: -3285390990856361307
+      FishFoodItems_6: 309773035270145763
+      FishFoodItems_7: -4444042164593593063
+      FishFoodItems_8: 1572801328348437792
+      FishFoodItems_9: 7219710326021256500
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
