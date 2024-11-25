@@ -13,9 +13,9 @@ public class PlayerStatsModel {
     public PlayerStatsModel()
     {
         // Extend resources in this constructor when adding new ones
-        model["money"] = 200; 
-        model["fishOil"] = 20; 
-        model["coral"] = 10; 
+        model["money"] = 500; 
+        model["fishOil"] = 500; 
+        model["coral"] = 500; 
     }
 
     public void ChangeStat(string type, int value)

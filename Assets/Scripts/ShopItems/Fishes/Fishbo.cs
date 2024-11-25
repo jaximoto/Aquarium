@@ -7,10 +7,7 @@ public class Fishbo : Fish
 {
     
 
-    public override void UpdateSelf()
-    {
-        return;
-    }
+    
 
 
    

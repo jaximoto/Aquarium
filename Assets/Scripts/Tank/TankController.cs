@@ -98,7 +98,7 @@ namespace Tank
 
         void BuyConsumableHandler(Consumable c)
         {
-
+            c.UpdateTank(ref this.model);
         }
 
 
@@ -124,17 +124,18 @@ namespace Tank
             //and it should call a ModifyTank method that eah item should override
             //that method will handle modifying the tank model
             //We also call another method that updates all item
-            Debug.Log($"{gameObject.name}: Temp = {model.statsDict["Temp"]}");
 
             foreach(Item item in model.myItems)
             {
                 Debug.Log(item.GetType().ToString());
                 item.UpdateTank(ref this.model);
-                item.UpdateSelf();
+               
+            }
+            foreach (Item item in model.myItems)
+            {
+                item.UpdateSelf(ref this.model);
             }
 
-            Debug.Log($"{gameObject.name}: C02 = {model.statsDict["CO2"]}");
-            Debug.Log($"{gameObject.name}: Temp = {model.statsDict["Temp"]}");
         }
 
 

@@ -3,11 +3,6 @@ using UnityEngine;
 
 public class AirBlaster : Passive
 {
-    public override void UpdateSelf()
-    {
-        return;
-    }
-
 
     public override void UpdateTank(ref TankModel tankModel)
     {
