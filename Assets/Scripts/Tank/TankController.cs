@@ -130,7 +130,11 @@ namespace Tank
             {
                 Debug.Log(item.GetType().ToString());
                 item.UpdateTank(ref this.model);
-                item.UpdateSelf();
+               
+            }
+            foreach (Item item in model.myItems)
+            {
+                item.UpdateSelf(ref this.model);
             }
 
             Debug.Log($"{gameObject.name}: C02 = {model.statsDict["CO2"]}");

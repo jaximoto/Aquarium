@@ -44,6 +44,11 @@ public class Fish : Item
         tankModel.IncrementStat("Algae", this.outAlgaeContent);
         tankModel.IncrementStat("PH", this.outPH);
 
+        
+    }
+
+    public override void UpdateSelf(ref TankModel tankModel)
+    {
         CalcFishStatus(ref tankModel);
     }
     public void CalcFishStatus(ref TankModel tankModel)
