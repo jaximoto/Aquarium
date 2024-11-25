@@ -105,7 +105,8 @@ namespace Tank
         // Update is called once per frame
         void Update()
         {
-            view.RenderTankStats(model.statsDict);
+            view.RenderTankUI(model.statsDict, model.statsMaxDict);
+            //view.RenderTankStats(model.statsDict);
         }
     }
 }

@@ -15,6 +15,23 @@ public class TankView : MonoBehaviour
     public TMP_Text algaeText;
 
     public Dictionary<string, TMP_Text> statsTextDict;
+    public Dictionary<string, GameObject> statsTickDict;
+    public Dictionary<string, GameObject> statsDialDict;
+
+    public GameObject PHTick;
+    public GameObject WasteTick;
+    public GameObject AlgaeTick;
+
+    public GameObject PHLeft;
+    public GameObject PHRight;
+
+    public GameObject CO2Dial;
+    public GameObject TempDial;
+    public GameObject CO2DialLeft;
+    public GameObject CO2DialRight;
+    public GameObject TempDialLeft;
+    public GameObject TempDialRight;
+
 
 
     void Start()
@@ -27,11 +44,53 @@ public class TankView : MonoBehaviour
             {"PH", phText},
             {"Algae", algaeText}
         };
+
+        statsTickDict = new Dictionary<string, GameObject>
+        {
+            {"Waste", WasteTick},
+            {"PH", PHTick},
+            {"Algae", AlgaeTick}
+        };
+
+        statsDialDict = new Dictionary<string, GameObject>
+        {
+            {"CO2", CO2Dial},
+            {"Temp", TempDial}
+        };
     }
 
 
     void Update()
     {
+    }
+
+
+    public void RenderTankUI(Dictionary<string, float> statsValsDict, Dictionary<string, float> statsMaxDict)
+    {
+        foreach(KeyValuePair<string, float> stat in statsValsDict)
+        {
+            float pcnt = statsValsDict[stat.Key] / statsMaxDict[stat.Key];
+
+            if (statsTickDict.ContainsKey(stat.Key))
+            {
+                Vector3 right = PHRight.transform.position; 
+                Vector3 left = PHLeft.transform.position; 
+                Vector3 oldPos = statsTickDict[stat.Key].transform.position;
+
+                Vector3 newPos = Vector3.Lerp(right, left, pcnt);
+
+                statsTickDict[stat.Key].transform.position = new Vector3(newPos.x, oldPos.y, oldPos.z);
+            }
+            else if (statsDialDict.ContainsKey(stat.Key))
+            {
+                Vector3 axis = Vector3.forward;
+                float rot = (pcnt - 0.5f) * 90;
+                Quaternion targetAngle = Quaternion.Euler(0, 0, rot);
+                statsDialDict[stat.Key].transform.rotation = Quaternion.Slerp(statsDialDict[stat.Key].transform.rotation,
+                                                                                targetAngle, 2.0f*Time.deltaTime);
+
+            }
+        }
     }
         
 
