@@ -85,7 +85,7 @@ public class UIController : MonoBehaviour
         {
             StartCoroutine(MoveCloseTankTab());
         }
-        float shopTarget = shopTab.transform.position.x + 8f;
+        float shopTarget = shopTab.transform.position.x + 9.42f;
         Debug.Log("shoptab transform = " + shopTab.transform.position.x);
         while (shopTab.transform.position.x < shopTarget) 
         {
@@ -104,7 +104,7 @@ public class UIController : MonoBehaviour
             StartCoroutine(MoveCloseTankTab());
         }
         
-        float fishTarget = fishTab.transform.position.x - 10f;
+        float fishTarget = fishTab.transform.position.x - 8f;
         while (fishTab.transform.position.x > fishTarget)
         {
             fishTab.transform.Translate(Vector3.left * tabMoveSpeed * Time.deltaTime);
