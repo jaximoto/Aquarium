@@ -3,14 +3,7 @@ using Tank;
 
 public class PurpleFish : Fish
 {
-    
 
     
 
-
-    
-
-
-    
-    
 }

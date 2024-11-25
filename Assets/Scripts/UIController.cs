@@ -104,7 +104,7 @@ public class UIController : MonoBehaviour
             StartCoroutine(MoveCloseTankTab());
         }
         
-        float fishTarget = fishTab.transform.position.x - 8f;
+        float fishTarget = fishTab.transform.position.x - 10f;
         while (fishTab.transform.position.x > fishTarget)
         {
             fishTab.transform.Translate(Vector3.left * tabMoveSpeed * Time.deltaTime);

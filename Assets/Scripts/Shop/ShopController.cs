@@ -153,6 +153,62 @@ public class ShopController : MonoBehaviour
             game.transform.SetParent(GameController.Instance.ActiveTank.transform, true);
             return i;
         }
+        else if (itemName == "Eel")
+        {
+            GameObject game = Instantiate(prefab).gameObject;
+            Eel i = game.gameObject.GetComponent<Eel>();
+            game.transform.SetParent(GameController.Instance.ActiveTank.transform, true);
+            return i;
+        }
+        else if (itemName == "GatorFish")
+        {
+            GameObject game = Instantiate(prefab).gameObject;
+            GatorFish i = game.gameObject.GetComponent<GatorFish>();
+            game.transform.SetParent(GameController.Instance.ActiveTank.transform, true);
+            return i;
+        }
+        else if (itemName == "HorseFish")
+        {
+            GameObject game = Instantiate(prefab).gameObject;
+            HorseFish i = game.gameObject.GetComponent<HorseFish>();
+            game.transform.SetParent(GameController.Instance.ActiveTank.transform, true);
+            return i;
+        }
+        else if (itemName == "OctoFish")
+        {
+            GameObject game = Instantiate(prefab).gameObject;
+            OctoFish i = game.gameObject.GetComponent<OctoFish>();
+            game.transform.SetParent(GameController.Instance.ActiveTank.transform, true);
+            return i;
+        }
+        else if (itemName == "Puffer")
+        {
+            GameObject game = Instantiate(prefab).gameObject;
+            Puffer i = game.gameObject.GetComponent<Puffer>();
+            game.transform.SetParent(GameController.Instance.ActiveTank.transform, true);
+            return i;
+        }
+        else if (itemName == "SharkFish")
+        {
+            GameObject game = Instantiate(prefab).gameObject;
+            SharkFish i = game.gameObject.GetComponent<SharkFish>();
+            game.transform.SetParent(GameController.Instance.ActiveTank.transform, true);
+            return i;
+        }
+        else if (itemName == "Squid")
+        {
+            GameObject game = Instantiate(prefab).gameObject;
+            Squid i = game.gameObject.GetComponent<Squid>();
+            game.transform.SetParent(GameController.Instance.ActiveTank.transform, true);
+            return i;
+        }
+        else if (itemName == "YellowCraw")
+        {
+            GameObject game = Instantiate(prefab).gameObject;
+            YellowCraw i = game.gameObject.GetComponent<YellowCraw>();
+            game.transform.SetParent(GameController.Instance.ActiveTank.transform, true);
+            return i;
+        }
         return null;
     }
 }

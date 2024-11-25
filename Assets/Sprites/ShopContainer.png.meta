@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: b593def9c052f410c91874ca949e3ab7
+guid: d3aee42f2d255a74698ade13d576c637
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1760897200334593908
-    second: FishOregano_0
-  - first:
-      213: 8348674714045470811
-    second: FishOregano_1
-  - first:
-      213: -6212354577619144920
-    second: FishOregano_2
-  - first:
-      213: 8417562099841516330
-    second: FishOregano_3
+      213: -8305269813103308354
+    second: ShopContainer_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -55,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -109,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FishOregano_0
+      name: ShopContainer_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 552
-        width: 128
-        height: 85
+        x: 12
+        y: 81
+        width: 133
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,74 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c80a31073590097e0800000000000000
-      internalID: -1760897200334593908
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FishOregano_1
-      rect:
-        serializedVersion: 2
-        x: 71
-        y: 483
-        width: 40
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b5857f35b637cd370800000000000000
-      internalID: 8348674714045470811
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FishOregano_2
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 197
-        width: 115
-        height: 92
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 82f2d361d6849c9a0800000000000000
-      internalID: -6212354577619144920
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FishOregano_3
-      rect:
-        serializedVersion: 2
-        x: 67
-        y: 122
-        width: 40
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a2348d3b12031d470800000000000000
-      internalID: 8417562099841516330
+      spriteID: eb1d332bb11cdbc80800000000000000
+      internalID: -8305269813103308354
       vertices: []
       indices: 
       edges: []
@@ -200,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -210,10 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      FishOregano_0: -1760897200334593908
-      FishOregano_1: 8348674714045470811
-      FishOregano_2: -6212354577619144920
-      FishOregano_3: 8417562099841516330
+      ShopContainer_0: -8305269813103308354
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
