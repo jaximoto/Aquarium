@@ -33,6 +33,12 @@ public class TankView : MonoBehaviour
     public GameObject TempDialLeft;
     public GameObject TempDialRight;
 
+    public Sprite emptyHeart;
+    public Sprite fullHeart;
+    public Sprite emptyHunger;
+    public Sprite fullHunger;
+    public Sprite[] fishStatuses;
+
     public Transform fishGrid;
 
     public int maxFish = 10;
@@ -73,6 +79,13 @@ public class TankView : MonoBehaviour
             fishHolders.Add(newFishHolder);
         }
         */
+       
+        emptyHeart = Resources.LoadAll<Sprite>("Sprites/HealthBar")[0];
+        fullHeart = Resources.LoadAll<Sprite>("Sprites/fullHeart")[0];
+        emptyHunger = Resources.LoadAll<Sprite>("Sprites/FoodBar")[0];
+        fullHunger = Resources.LoadAll<Sprite>("Sprites/fullFood")[0];
+
+        fishStatuses = Resources.LoadAll<Sprite>("Sprites/FishStatusIcons");
 
     }
 
@@ -111,19 +124,6 @@ public class TankView : MonoBehaviour
     }
         
 
-    public void RenderTankStats(Dictionary<string, float> statsValsDict)
-    {
-        /*
-        //If you want to render an integer, just cast it before rendering it
-        //sucks but works
-        foreach (KeyValuePair<string, float> stat in statsValsDict)
-        {
-            statsTextDict[stat.Key].text = $"{stat.Key}: {statsValsDict[stat.Key]}";
-        }
-        */
-    }
-
-
     public void RenderFishUI(Fish myFish)
     {
         float offset = fishHolders.Count * offsetVal;
@@ -134,7 +134,71 @@ public class TankView : MonoBehaviour
         newFishHolder.transform.Find("FishHolder").GetComponent<SpriteRenderer>().sprite = myFish.gameObject.GetComponent<SpriteRenderer>().sprite;
         newFishHolder.transform.Translate(Vector3.down * (offset)); 
 
+        //Set hearts, hunger, happiness
+        Transform healthBar = newFishHolder.transform.Find("HealthBarContainer");
+        Transform hungerBar = newFishHolder.transform.Find("FoodBarContainer");
+        for (int i=0; i<myFish.maxHealth; i++)
+        {
+            if (i < myFish.health)
+            {
+                healthBar.GetChild(i).GetComponent<SpriteRenderer>().sprite = fullHeart;
+                hungerBar.GetChild(i).GetComponent<SpriteRenderer>().sprite = fullHunger;
+            }
+            else
+            {
+                healthBar.GetChild(i).GetComponent<SpriteRenderer>().sprite = emptyHeart;
+                hungerBar.GetChild(i).GetComponent<SpriteRenderer>().sprite = emptyHunger;
+            }
+        }
+
+
+        newFishHolder.transform.Find("FishStatusIcon").GetComponent<SpriteRenderer>().sprite = fishStatuses[(int)myFish.currentStatus];
+            
+        
+
         fishHolders.Add(newFishHolder);
+    }
+
+
+    public void UpdateFishUI(List<Fish> myFish)
+    {
+        for (int j=0; j<myFish.Count; j++)
+        {
+            Fish fish = myFish[j];
+            GameObject fishHolder = fishHolders[j];
+
+            //Set hearts, hunger, happiness
+            Transform healthBar = fishHolder.transform.Find("HealthBarContainer");
+            Transform hungerBar = fishHolder.transform.Find("FoodBarContainer");
+            for (int i=0; i<fish.maxHealth; i++)
+            {
+                if (i < fish.health)
+                {
+                    healthBar.GetChild(i).GetComponent<SpriteRenderer>().sprite = fullHeart;
+                }
+                else
+                {
+                    healthBar.GetChild(i).GetComponent<SpriteRenderer>().sprite = emptyHeart;
+                }
+            }
+
+            for (int i=0; i<10; i++)
+            {
+                if (i < fish.hunger)
+                {
+                    hungerBar.GetChild(i).GetComponent<SpriteRenderer>().sprite = fullHunger;
+                }
+                else
+                {
+                    hungerBar.GetChild(i).GetComponent<SpriteRenderer>().sprite = emptyHunger;
+                }
+            }
+
+
+
+            fishHolder.transform.Find("FishStatusIcon").GetComponent<SpriteRenderer>().sprite = fishStatuses[(int)fish.currentStatus];
+        }
+            
     }
 
 

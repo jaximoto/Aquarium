@@ -9,14 +9,15 @@ namespace Tank
     public class TankController : MonoBehaviour
     {
 
-        public TankModel model;
+        public TankModel model = null;
         public TankView view;
         public bool isActive;
 
         private void OnEnable()
         {
             Activate();
-            view.RenderAllFish(model.myFish);
+            if (model != null)
+                view.RenderAllFish(model.myFish);
         }
 
         private void OnDisable()
@@ -145,6 +146,8 @@ namespace Tank
         {
             view.RenderTankUI(model.statsDict, model.statsMaxDict);
             //view.RenderTankStats(model.statsDict);
+            if (isActive)
+                view.UpdateFishUI(model.myFish);
         }
 
     }
