@@ -1,4 +1,5 @@
 
+using NUnit.Framework.Constraints;
 using Tank;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -42,25 +43,144 @@ public class Fish : Item
         tankModel.IncrementStat("Waste", this.outWaste);
         tankModel.IncrementStat("Algae", this.outAlgaeContent);
         tankModel.IncrementStat("PH", this.outPH);
+
+        CalcFishStatus(ref tankModel);
     }
-    public void CalcFishStatus()
+    public void CalcFishStatus(ref TankModel tankModel)
     {
         // C02 0 - 1000
+        C02Calc(tankModel.GetStat("CO2"));
         // Temp 0 - 50
+        TempCalc(tankModel.GetStat("Temp"));
         // Waste 0 - 100
+        WasteCalc(tankModel.GetStat("Waste"));
         // PH 0 - 14
+        PHCalc(tankModel.GetStat("PH"));
         // Algae 0 - 100
-
+        AlgaeCalc(tankModel.GetStat("Algae"));
     }
 
-    public void C02Calc()
+    #region temp
+    public void TempCalc(float tankTemp)
     {
+        float tolerance = 10;
+        // Do TankTemp < tolerance (15+- pTemp)
+        // Calculate the absolute difference between the tank's temperature and the preferred temperature
+        float temperatureDifference = Mathf.Abs(tankTemp - pTemp);
 
+        // Normalize the difference to a range of -1 to 1 based on tolerance
+        // 0 means the temperature is exactly at the preferred value, which will return 0 (neutral)
+        // As the temperature moves away from the preferred value, the result moves toward -1 or 1.
+        float normalizedTemp = 1f - (temperatureDifference / tolerance);
+        normalizedTemp = Mathf.Clamp(normalizedTemp, -1f, 1f); // Clamp the value between -1 and 1
+
+        // Add the normalized temperature difference to the fishStatus to adjust the health
+        fishStatus += normalizedTemp * 0.05f; // Adjust the multiplier (0.05f) to control how much it affects health
+
+        // Ensure fishStatus stays within the [0, 1] range
+        fishStatus = Mathf.Clamp01(fishStatus);
+        // Optionally, log the normalized value for debugging purposes
+        Debug.Log($"Temperature Difference: {temperatureDifference}, Normalized Temp Value: {normalizedTemp}, Updated Fish Status: {fishStatus}");
     }
-    public void UpdateFishStatus()
+    #endregion
+
+    #region C02
+    public void C02Calc(float tankC02)
     {
+        float tolerance = 150;
+        // Do TankTemp < tolerance (15+- pTemp)
+        // Calculate the absolute difference between the tank's temperature and the preferred temperature
+        float C02Difference = Mathf.Abs(tankC02 - pC02);
 
+        // Normalize the difference to a range of -1 to 1 based on tolerance
+        // 0 means the temperature is exactly at the preferred value, which will return 0 (neutral)
+        // As the temperature moves away from the preferred value, the result moves toward -1 or 1.
+        float normalizedTemp = 1f - (C02Difference / tolerance);
+        normalizedTemp = Mathf.Clamp(normalizedTemp, -1f, 1f); // Clamp the value between -1 and 1
+
+        // Add the normalized temperature difference to the fishStatus to adjust the health
+        fishStatus += normalizedTemp * 0.05f; // Adjust the multiplier (0.05f) to control how much it affects health
+
+        // Ensure fishStatus stays within the [0, 1] range
+        fishStatus = Mathf.Clamp01(fishStatus);
+        // Optionally, log the normalized value for debugging purposes
+        Debug.Log($"C02 Difference: {C02Difference}, Normalized C02 Value: {normalizedTemp}, Updated Fish Status: {fishStatus}");
     }
+    #endregion
+
+    #region Waste
+    public void WasteCalc(float tankWaste)
+    {
+        float tolerance = 20;
+        // Do TankTemp < tolerance (15+- pTemp)
+        // Calculate the absolute difference between the tank's temperature and the preferred temperature
+        float WasteDifference = Mathf.Abs(tankWaste - pWaste);
+
+        // Normalize the difference to a range of -1 to 1 based on tolerance
+        // 0 means the temperature is exactly at the preferred value, which will return 0 (neutral)
+        // As the temperature moves away from the preferred value, the result moves toward -1 or 1.
+        float normalizedTemp = 1f - (WasteDifference / tolerance);
+        normalizedTemp = Mathf.Clamp(normalizedTemp, -1f, 1f); // Clamp the value between -1 and 1
+
+        // Add the normalized temperature difference to the fishStatus to adjust the health
+        fishStatus += normalizedTemp * 0.05f; // Adjust the multiplier (0.05f) to control how much it affects health
+
+        // Ensure fishStatus stays within the [0, 1] range
+        fishStatus = Mathf.Clamp01(fishStatus);
+        // Optionally, log the normalized value for debugging purposes
+        Debug.Log($"Waste Difference: {WasteDifference}, Normalized Waste Value: {normalizedTemp}, Updated Fish Status: {fishStatus}");
+    }
+    #endregion
+
+    #region PH
+    public void PHCalc(float tankPH)
+    {
+        float tolerance = 4;
+        // Do TankTemp < tolerance (15+- pTemp)
+        // Calculate the absolute difference between the tank's temperature and the preferred temperature
+        float C02Difference = Mathf.Abs(tankPH - pPH);
+
+        // Normalize the difference to a range of -1 to 1 based on tolerance
+        // 0 means the temperature is exactly at the preferred value, which will return 0 (neutral)
+        // As the temperature moves away from the preferred value, the result moves toward -1 or 1.
+        float normalizedTemp = 1f - (C02Difference / tolerance);
+        normalizedTemp = Mathf.Clamp(normalizedTemp, -1f, 1f); // Clamp the value between -1 and 1
+
+        // Add the normalized temperature difference to the fishStatus to adjust the health
+        fishStatus += normalizedTemp * 0.05f; // Adjust the multiplier (0.05f) to control how much it affects health
+
+        // Ensure fishStatus stays within the [0, 1] range
+        fishStatus = Mathf.Clamp01(fishStatus);
+        // Optionally, log the normalized value for debugging purposes
+        Debug.Log($"PH Difference: {C02Difference}, Normalized PH Value: {normalizedTemp}, Updated Fish Status: {fishStatus}");
+    }
+    #endregion
+
+    #region Algae
+    public void AlgaeCalc(float tankAlgae)
+    {
+        float tolerance = 150;
+        // Do TankTemp < tolerance (15+- pTemp)
+        // Calculate the absolute difference between the tank's temperature and the preferred temperature
+        float C02Difference = Mathf.Abs(tankAlgae - pAlgaeContent);
+
+        // Normalize the difference to a range of -1 to 1 based on tolerance
+        // 0 means the temperature is exactly at the preferred value, which will return 0 (neutral)
+        // As the temperature moves away from the preferred value, the result moves toward -1 or 1.
+        float normalizedTemp = 1f - (C02Difference / tolerance);
+        normalizedTemp = Mathf.Clamp(normalizedTemp, -1f, 1f); // Clamp the value between -1 and 1
+
+        // Add the normalized temperature difference to the fishStatus to adjust the health
+        fishStatus += normalizedTemp * 0.05f; // Adjust the multiplier (0.05f) to control how much it affects health
+
+        // Ensure fishStatus stays within the [0, 1] range
+        fishStatus = Mathf.Clamp01(fishStatus);
+        // Optionally, log the normalized value for debugging purposes
+        Debug.Log($"Algae Difference: {C02Difference}, Normalized Algae Value: {normalizedTemp}, Updated Fish Status: {fishStatus}");
+    }
+    #endregion
+
+    
     public virtual void WhenToMove()
     {
         if (!isMoving)

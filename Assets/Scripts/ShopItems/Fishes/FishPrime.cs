@@ -7,10 +7,7 @@ public class FishPrime : Fish
 {
     
 
-    public override void UpdateSelf()
-    {
-        return;
-    }
+    
 
 
    
