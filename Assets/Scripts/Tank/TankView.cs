@@ -33,12 +33,20 @@ public class TankView : MonoBehaviour
     public GameObject TempDialLeft;
     public GameObject TempDialRight;
 
+    public Sprite emptyHeart;
+    public Sprite fullHeart;
+    public Sprite emptyHunger;
+    public Sprite fullHunger;
+    public Sprite[] fishStatuses;
+
     public Transform fishGrid;
 
     public int maxFish = 10;
     public int currFish = 0;
     public GameObject fishHolder;
     public List<GameObject> fishHolders = new();
+
+    public float offsetVal = 0.5f;
 
     void Start()
     {
@@ -64,11 +72,20 @@ public class TankView : MonoBehaviour
             {"Temp", TempDial}
         };
 
+        /*
         for (int i=0; i<maxFish; i++)
         {
             GameObject newFishHolder = Instantiate(fishHolder, fishGrid);
             fishHolders.Add(newFishHolder);
         }
+        */
+       
+        emptyHeart = Resources.LoadAll<Sprite>("Sprites/HealthBar")[0];
+        fullHeart = Resources.LoadAll<Sprite>("Sprites/fullHeart")[0];
+        emptyHunger = Resources.LoadAll<Sprite>("Sprites/FoodBar")[0];
+        fullHunger = Resources.LoadAll<Sprite>("Sprites/fullFood")[0];
+
+        fishStatuses = Resources.LoadAll<Sprite>("Sprites/FishStatusIcons");
 
     }
 
@@ -107,43 +124,107 @@ public class TankView : MonoBehaviour
     }
         
 
-    public void RenderTankStats(Dictionary<string, float> statsValsDict)
+    public void RenderFishUI(Fish myFish)
     {
-        /*
-        //If you want to render an integer, just cast it before rendering it
-        //sucks but works
-        foreach (KeyValuePair<string, float> stat in statsValsDict)
+        float offset = fishHolders.Count * offsetVal;
+
+        GameObject newFishHolder = Instantiate(fishHolder, fishGrid);
+
+        //Set sprite
+        newFishHolder.transform.Find("FishHolder").GetComponent<SpriteRenderer>().sprite = myFish.gameObject.GetComponent<SpriteRenderer>().sprite;
+        newFishHolder.transform.Translate(Vector3.down * (offset)); 
+
+        //Set hearts, hunger, happiness
+        Transform healthBar = newFishHolder.transform.Find("HealthBarContainer");
+        Transform hungerBar = newFishHolder.transform.Find("FoodBarContainer");
+        for (int i=0; i<myFish.maxHealth; i++)
         {
-            statsTextDict[stat.Key].text = $"{stat.Key}: {statsValsDict[stat.Key]}";
+            if (i < myFish.health)
+            {
+                healthBar.GetChild(i).GetComponent<SpriteRenderer>().sprite = fullHeart;
+                hungerBar.GetChild(i).GetComponent<SpriteRenderer>().sprite = fullHunger;
+            }
+            else
+            {
+                healthBar.GetChild(i).GetComponent<SpriteRenderer>().sprite = emptyHeart;
+                hungerBar.GetChild(i).GetComponent<SpriteRenderer>().sprite = emptyHunger;
+            }
         }
-        */
+
+
+        newFishHolder.transform.Find("FishStatusIcon").GetComponent<SpriteRenderer>().sprite = fishStatuses[(int)myFish.currentStatus];
+            
+        
+
+        fishHolders.Add(newFishHolder);
     }
 
 
-    public void RenderFishUI(List<Fish> myFish)
+    public void UpdateFishUI(List<Fish> myFish)
     {
-        Debug.Assert(myFish.Count <= fishHolders.Count);
+        for (int j=0; j<myFish.Count; j++)
+        {
+            Fish fish = myFish[j];
+            GameObject fishHolder = fishHolders[j];
 
-        // Holy fuck
+            //Set hearts, hunger, happiness
+            Transform healthBar = fishHolder.transform.Find("HealthBarContainer");
+            Transform hungerBar = fishHolder.transform.Find("FoodBarContainer");
+            for (int i=0; i<fish.maxHealth; i++)
+            {
+                if (i < fish.health)
+                {
+                    healthBar.GetChild(i).GetComponent<SpriteRenderer>().sprite = fullHeart;
+                }
+                else
+                {
+                    healthBar.GetChild(i).GetComponent<SpriteRenderer>().sprite = emptyHeart;
+                }
+            }
+
+            for (int i=0; i<10; i++)
+            {
+                if (i < fish.hunger)
+                {
+                    hungerBar.GetChild(i).GetComponent<SpriteRenderer>().sprite = fullHunger;
+                }
+                else
+                {
+                    hungerBar.GetChild(i).GetComponent<SpriteRenderer>().sprite = emptyHunger;
+                }
+            }
+
+
+
+            fishHolder.transform.Find("FishStatusIcon").GetComponent<SpriteRenderer>().sprite = fishStatuses[(int)fish.currentStatus];
+        }
+            
+    }
+
+
+    public void RenderAllFish(List<Fish> myFish)
+    {
         for (int i=0; i<fishHolders.Count; i++)
         {
-            fishHolders[i].GetComponent<SpriteRenderer>().sprite = null;
+            fishHolders[i].SetActive(true);
         }
 
-        for (int i=0; i<myFish.Count; i++)
-        {
-            fishHolders[i].GetComponent<SpriteRenderer>().sprite = myFish[i].gameObject.GetComponent<SpriteRenderer>().sprite;
-
-        }
     }
-
 
     public void KillAllFish(List<Fish> myFish)
     {
+        List<GameObject> toDestroy = new();
         for (int i=0; i<fishHolders.Count; i++)
         {
-            fishHolders[i].GetComponent<SpriteRenderer>().sprite = null;
+            //fishHolders[i].GetComponent<SpriteRenderer>().sprite = null;
+            //toDestroy.Add(fishHolders[i]);
+            fishHolders[i].SetActive(false);
         }
+        /*
+        for (int i=0; i<toDestroy.Count; i++)
+        {
+        }
+        */
     }
 
 

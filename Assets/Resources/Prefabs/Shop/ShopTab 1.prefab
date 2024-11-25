@@ -2068,7 +2068,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A pink fish. bizarre creature. both foul and twisted in machination
+  m_text: 'Octopus fish with a huge mouth perfect for eating '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
@@ -2215,7 +2215,7 @@ SpriteRenderer:
   m_SortingLayerID: 1547834355
   m_SortingLayer: 1
   m_SortingOrder: 5
-  m_Sprite: {fileID: 8592466800823992071, guid: 182f0c61605ba488199768c44a7035d3, type: 3}
+  m_Sprite: {fileID: 717144221660794061, guid: 182f0c61605ba488199768c44a7035d3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2738,7 +2738,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: Don't starte into his eyes.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
@@ -4796,7 +4796,7 @@ SpriteRenderer:
   m_SortingLayerID: 1547834355
   m_SortingLayer: 1
   m_SortingOrder: 5
-  m_Sprite: {fileID: 8348674714045470811, guid: b593def9c052f410c91874ca949e3ab7, type: 3}
+  m_Sprite: {fileID: -1413290480804032634, guid: afcddf01cc75e4d0eb73658c2247cf57, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5935,7 +5935,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Eel
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 0}
@@ -6015,7 +6015,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: A giraffe and Nelson Mandela walk into a bar.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
@@ -9407,7 +9407,7 @@ SpriteRenderer:
   m_SortingLayerID: 1547834355
   m_SortingLayer: 1
   m_SortingOrder: 5
-  m_Sprite: {fileID: 8348674714045470811, guid: b593def9c052f410c91874ca949e3ab7, type: 3}
+  m_Sprite: {fileID: 8592466800823992071, guid: 182f0c61605ba488199768c44a7035d3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9642,7 +9642,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: OctoFish
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &2915589831187762258
@@ -9710,7 +9710,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: Fish Prime.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
@@ -9846,7 +9846,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Pink Fish
+  m_text: Richard IV
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
@@ -10692,7 +10692,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A pink fish. bizarre creature. both foul and twisted in machination
+  m_text: A fish that looks like a horse  and is named after a king
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
@@ -11386,7 +11386,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: PurpleFish
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &3413984630432037617
@@ -11726,7 +11726,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: A puffy boi
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
@@ -13625,7 +13625,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: GatorFish
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &4068455493134495933
@@ -15546,7 +15546,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: A blue blob. Do not anger him.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
@@ -17346,7 +17346,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Pink Fish
+  m_text: Octopia
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
@@ -17777,7 +17777,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: HorseFish
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &5474318562498164623
@@ -20716,7 +20716,7 @@ SpriteRenderer:
   m_SortingLayerID: 1547834355
   m_SortingLayer: 1
   m_SortingOrder: 5
-  m_Sprite: {fileID: 8348674714045470811, guid: b593def9c052f410c91874ca949e3ab7, type: 3}
+  m_Sprite: {fileID: -3844181123045068252, guid: 683199e89b5d04fdabaf7b5f02e533e4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -24034,7 +24034,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: He'll bite your arm and also other parts of your body
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
@@ -24416,7 +24416,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: GreenFish
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &8036198587854442463
@@ -25126,7 +25126,7 @@ SpriteRenderer:
   m_SortingLayerID: 1547834355
   m_SortingLayer: 1
   m_SortingOrder: 5
-  m_Sprite: {fileID: 8348674714045470811, guid: b593def9c052f410c91874ca949e3ab7, type: 3}
+  m_Sprite: {fileID: 5897821563474178108, guid: 9397ae00765a045a8ad641bd8afcc94a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
