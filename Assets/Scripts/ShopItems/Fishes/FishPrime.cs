@@ -13,10 +13,7 @@ public class FishPrime : Fish
     }
 
 
-    public override void UpdateTank(ref TankModel tankModel)
-    {
-        tankModel.IncrementStat("Temp", this.outTemp);
-    }
+   
 
 
    

@@ -13,10 +13,7 @@ public class Fishbo : Fish
     }
 
 
-    public override void UpdateTank(ref TankModel tankModel)
-    {
-        tankModel.IncrementStat("PH", this.outPH);
-    }
+   
 
 
     
