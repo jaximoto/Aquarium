@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class PlayerStatsController : MonoBehaviour
 {
@@ -30,6 +31,8 @@ public class PlayerStatsController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (model.model["money"] <= 0)
+            SceneManager.LoadScene("EndScene");
         UpdatePlayerStatsUI();
 
         // Check for mouse click

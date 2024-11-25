@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Julian.unity
     guid: 524d4afcfc3907041a6658f7e7edb7c0
+  - enabled: 1
+    path: Assets/Scenes/EndScene.unity
+    guid: ade3cb674a43ea849ac8f6299920b16f
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
