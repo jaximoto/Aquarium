@@ -31,6 +31,55 @@ public class PlayerStatsController : MonoBehaviour
     void Update()
     {
         UpdatePlayerStatsUI();
+
+        // Check for mouse click
+        if (Input.GetMouseButtonDown(0)) // 0 = Left Mouse Button
+        {
+            // Get the mouse position in world coordinates
+            Vector3 mouseWorldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+            // Set the starting position of the ray (ignore the Z value for 2D)
+            Vector2 rayStart = new Vector2(mouseWorldPosition.x, mouseWorldPosition.y);
+
+            // Set the direction for the ray (downward in this case)
+            Vector2 rayDirection = Vector2.down;
+
+            // Perform the raycast
+            RaycastHit2D hit = Physics2D.Raycast(rayStart, rayDirection);
+
+            if (hit)
+            {
+                Debug.Log("hit: " + hit.collider.name);
+                if (hit.transform.gameObject.TryGetComponent<Fish>(out Fish hitFish))
+                {
+                    if (hitFish.myBubble != null)
+                    {
+                        if (hitFish.currentStatus == Fish.Status.unhealthy)
+                        {
+                            model.ChangeStat("money", Mathf.CeilToInt(hitFish.outMoney * .5f));
+                        }
+                        else if (hitFish.currentStatus == Fish.Status.healthy)
+                        {
+                            model.ChangeStat("money", Mathf.CeilToInt(hitFish.outMoney));
+                        }
+                        else if (hitFish.currentStatus == Fish.Status.plusUltra)
+                        {
+                            model.ChangeStat("money", Mathf.CeilToInt(hitFish.outMoney));
+                            model.ChangeStat("fishOil", Mathf.CeilToInt(hitFish.outFishOil));
+                            model.ChangeStat("coral", Mathf.CeilToInt(hitFish.outCoral));
+                        }
+                        hitFish.DestroyBubble();
+
+                    }
+
+
+
+
+                }
+
+            }
+        }
+        
     }
 
     public bool CanBuy(Dictionary<string, int> costs)
