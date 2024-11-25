@@ -13,6 +13,7 @@ public class TankModel
     public Dictionary<string, float> statsMaxDict;
 
     public List<Fish> myFish;
+    public int maxFish = 10;
     
     public List<Item> myItems;
 

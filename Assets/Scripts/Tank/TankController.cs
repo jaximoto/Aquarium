@@ -41,6 +41,7 @@ namespace Tank
         {
             isActive = false;
             ShopController.OnBuyTank -= BuyHandler;
+            view.KillAllFish(model.myFish);
         }
     
 
@@ -84,7 +85,10 @@ namespace Tank
 
         void BuyFishHandler(Fish f)
         {
-            model.myFish.Add((Fish)f);
+            if (model.myFish.Count < model.maxFish)
+            {
+                model.myFish.Add(f);
+            }
         }
 
 
@@ -111,7 +115,9 @@ namespace Tank
         void Update()
         {
             view.RenderTankUI(model.statsDict, model.statsMaxDict);
+            view.RenderFishUI(model.myFish);
             //view.RenderTankStats(model.statsDict);
         }
+
     }
 }

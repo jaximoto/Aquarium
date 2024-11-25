@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using static Fish;
 
 using System.Collections.Generic;
 
@@ -32,7 +33,12 @@ public class TankView : MonoBehaviour
     public GameObject TempDialLeft;
     public GameObject TempDialRight;
 
+    public Transform fishGrid;
 
+    public int maxFish = 10;
+    public int currFish = 0;
+    public GameObject fishHolder;
+    public List<GameObject> fishHolders = new();
 
     void Start()
     {
@@ -57,6 +63,13 @@ public class TankView : MonoBehaviour
             {"CO2", CO2Dial},
             {"Temp", TempDial}
         };
+
+        for (int i=0; i<maxFish; i++)
+        {
+            GameObject newFishHolder = Instantiate(fishHolder, fishGrid);
+            fishHolders.Add(newFishHolder);
+        }
+
     }
 
 
@@ -96,13 +109,42 @@ public class TankView : MonoBehaviour
 
     public void RenderTankStats(Dictionary<string, float> statsValsDict)
     {
+        /*
         //If you want to render an integer, just cast it before rendering it
         //sucks but works
         foreach (KeyValuePair<string, float> stat in statsValsDict)
         {
             statsTextDict[stat.Key].text = $"{stat.Key}: {statsValsDict[stat.Key]}";
         }
+        */
     }
+
+
+    public void RenderFishUI(List<Fish> myFish)
+    {
+        Debug.Assert(myFish.Count <= fishHolders.Count);
+
+        // Holy fuck
+        for (int i=0; i<fishHolders.Count; i++)
+        {
+            fishHolders[i].GetComponent<SpriteRenderer>().sprite = null;
+        }
+
+        for (int i=0; i<myFish.Count; i++)
+        {
+            fishHolders[i].GetComponent<SpriteRenderer>().sprite = myFish[i].gameObject.GetComponent<SpriteRenderer>().sprite;
+        }
+    }
+
+
+    public void KillAllFish(List<Fish> myFish)
+    {
+        for (int i=0; i<fishHolders.Count; i++)
+        {
+            fishHolders[i].GetComponent<SpriteRenderer>().sprite = null;
+        }
+    }
+
 
 
 }
