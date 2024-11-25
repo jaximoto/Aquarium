@@ -41,6 +41,7 @@ namespace Tank
         {
             isActive = false;
             ShopController.OnBuyTank -= BuyHandler;
+            view.KillAllFish(model.myFish);
         }
     
 
@@ -67,14 +68,33 @@ namespace Tank
             {
                 BuyFishHandler((Fish)i);
             }
-
-            //Anus
         }
+
 
         void BuyPassiveHandler(Passive p)
         {
+            //Check if one with same tag already
+            List<Passive> toRemove = new();
+            string ptag = p.gameObject.tag;
+            foreach (Passive p2 in model.myPassives)
+            {
+                string p2tag = p2.gameObject.tag;
+                //If yes, remove it
+                if (p2tag==ptag)
+                {
+                    toRemove.Add(p2);
+                }
+            }
 
+            foreach(Passive p2 in toRemove)
+            {
+                model.myPassives.Remove(p2);
+                RemoveItem(p2);
+            }
+
+            model.myPassives.Add(p);
         }
+
 
         void BuyConsumableHandler(Consumable c)
         {
@@ -84,7 +104,17 @@ namespace Tank
 
         void BuyFishHandler(Fish f)
         {
-            model.myFish.Add((Fish)f);
+            if (model.myFish.Count < model.maxFish)
+            {
+                model.myFish.Add(f);
+            }
+        }
+
+
+        public void RemoveItem(Item item)
+        {
+            model.myItems.Remove(item);
+            Destroy(item.gameObject);
         }
 
 
@@ -107,11 +137,14 @@ namespace Tank
             Debug.Log($"{gameObject.name}: Temp = {model.statsDict["Temp"]}");
         }
 
+
         // Update is called once per frame
         void Update()
         {
             view.RenderTankUI(model.statsDict, model.statsMaxDict);
+            view.RenderFishUI(model.myFish);
             //view.RenderTankStats(model.statsDict);
         }
+
     }
 }

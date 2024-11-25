@@ -13,6 +13,9 @@ public class TankModel
     public Dictionary<string, float> statsMaxDict;
 
     public List<Fish> myFish;
+    public int maxFish = 10;
+
+    public List<Passive> myPassives;
     
     public List<Item> myItems;
 
@@ -41,6 +44,7 @@ public class TankModel
 
         myItems = new List<Item>();
         myFish = new List<Fish>();
+        myPassives = new List<Passive>();
     }
 
 

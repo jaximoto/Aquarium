@@ -3,10 +3,7 @@ using Tank;
 
 public class GreenFish : Fish
 {
-    public override void Move()
-    {
-        return;
-    }
+   
 
     public override void UpdateSelf()
     {
@@ -21,9 +18,6 @@ public class GreenFish : Fish
     }
 
 
-    private void Update()
-    {
-        Move();
-    }
+   
     
 }
