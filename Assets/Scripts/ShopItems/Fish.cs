@@ -1,11 +1,13 @@
 
 using NUnit.Framework.Constraints;
+using System.Data;
 using Tank;
 using Unity.VisualScripting;
 using UnityEngine;
 
 public class Fish : Item
 {
+    public bool debug = false;
     public float minX = -8.5f; // Minimum X (can be adjusted)
     public float maxX = 7.5f;  // Maximum X (can be adjusted)
     public float minY = -4.5f; // Minimum Y (can be adjusted)
@@ -25,7 +27,8 @@ public class Fish : Item
     //go over fish stats and preferences.
     //make an algorithm
     public float fishStatus = 0.65f;
-    enum Status
+    public Status currentStatus = Status.healthy;
+    public enum Status
     {
         dead, //fish is dead, fish health points == 0
         dying, //fish is losing health, fishStatus == [0,0.25]
@@ -50,21 +53,84 @@ public class Fish : Item
     public override void UpdateSelf(ref TankModel tankModel)
     {
         CalcFishStatus(ref tankModel);
+        UpdateStatus(fishStatus);
+    }
+
+    public void UpdateStatus(float fishStatus)
+    {
+        if (fishStatus < .25)
+        {
+            currentStatus = Status.dying;
+        }
+        else if (fishStatus > .25 && fishStatus < .5)
+        {
+            currentStatus = Status.unhealthy;
+        }
+        else if (fishStatus > .5 && fishStatus < .75)
+        {
+            currentStatus = Status.healthy;
+        }
+        else if (fishStatus > .75 )
+        {
+            currentStatus = Status.plusUltra;
+        }
+
     }
     public void CalcFishStatus(ref TankModel tankModel)
     {
-        // C02 0 - 1000
+        /*if (debug == true)
+        {
+            C02Calc(tankModel.GetStat("C02"));
+            TempCalc(tankModel.GetStat("Temp"));
+            WasteCalc(tankModel.GetStat("Waste"));
+            PHCalc(tankModel.GetStat("PH"));
+            AlgaeCalc(tankModel.GetStat("Algae"));
+        }
+        else
+        {
+            // C02 0 - 1000
+
+            StatCalc(300, tankModel.GetStat("CO2"), pC02);
+            // Temp 0 - 50
+
+            StatCalc(10, tankModel.GetStat("Temp"), pTemp);
+            // Waste 0 - 100
+
+            StatCalc(20, tankModel.GetStat("Waste"), pWaste);
+            // PH 0 - 14
+
+            StatCalc(5, tankModel.GetStat("PH"), pPH);
+            // Algae 0 - 100
+
+            StatCalc(30, tankModel.GetStat("Algae"), pAlgaeContent);
+        }
+        */
         C02Calc(tankModel.GetStat("CO2"));
-        // Temp 0 - 50
         TempCalc(tankModel.GetStat("Temp"));
-        // Waste 0 - 100
         WasteCalc(tankModel.GetStat("Waste"));
-        // PH 0 - 14
         PHCalc(tankModel.GetStat("PH"));
-        // Algae 0 - 100
         AlgaeCalc(tankModel.GetStat("Algae"));
     }
 
+    void StatCalc(float tolerance, float tankValue, float preference)
+    {
+        ;
+        // Do TankTemp < tolerance (15+- pTemp)
+        // Calculate the absolute difference between the tank's temperature and the preferred temperature
+        float C02Difference = Mathf.Abs(tankValue - preference);
+
+        // Normalize the difference to a range of -1 to 1 based on tolerance
+        // 0 means the temperature is exactly at the preferred value, which will return 0 (neutral)
+        // As the temperature moves away from the preferred value, the result moves toward -1 or 1.
+        float normalizedTemp = 1f - (C02Difference / tolerance);
+        normalizedTemp = Mathf.Clamp(normalizedTemp, -1f, 1f); // Clamp the value between -1 and 1
+
+        // Add the normalized temperature difference to the fishStatus to adjust the health
+        fishStatus += normalizedTemp * 0.05f; // Adjust the multiplier (0.05f) to control how much it affects health
+
+        // Ensure fishStatus stays within the [0, 1] range
+        fishStatus = Mathf.Clamp01(fishStatus);
+    }
     #region temp
     public void TempCalc(float tankTemp)
     {
